@@ -1,0 +1,12 @@
+<div class="col-md-4 col-md-offset-4">
+  <h1>修改挑戰</h1>
+
+  <hr>
+  <%= simple_form_for @group do |f| %>
+    <div class="form-group">
+      <%= f.input :title %>
+      <%= f.input :description %>
+    </div>
+    <%= f.submit "挑戰再起", class: "btn btn-primary", data: { disable_with: "挑戰再起中..." } %>
+  <% end %>
+</div>
