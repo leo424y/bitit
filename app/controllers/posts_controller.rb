@@ -15,6 +15,11 @@ class PostsController < ApplicationController
    end
  end
 
+ def edit
+    @gruop = Group.find(params[:group_id])
+    @post = @group.post.find(params[:id])
+ end
+
  private
 
  def post_params
