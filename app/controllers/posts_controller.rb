@@ -20,6 +20,14 @@ class PostsController < ApplicationController
     @post = @group.post.find(params[:id])
  end
 
+ def destroy
+    @group = Group.find(params[:group_id])
+    @post = @group.posts.find(params[:id])
+
+    @post.destroy
+    redirect_to group_path(@group), alert: "挑戰行動已經告吹"
+ end
+
  private
 
  def post_params
