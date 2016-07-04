@@ -23,6 +23,13 @@ class GroupsController < ApplicationController
     else
       render :edit
     end
+  end
+
+  def destroy
+    @group = Group.find(params[:id])
+    @group.destroy
+    redirect_to groups_path, alert: "挑戰已煙消雲散"
+  end
 
   def create
     @group = Group.new(group_params)
