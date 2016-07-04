@@ -1,12 +1,12 @@
 class PostsController < ApplicationController
  before_action :find_group
+ before_action :find_post, only: [:edit, :update, :destroy]
 
  def new
    @post = @group.posts.new
  end
 
  def create
-
    @post = @group.posts.build(post_params)
 
    if @post.save
@@ -17,14 +17,17 @@ class PostsController < ApplicationController
  end
 
  def edit
-    @gruop = Group.find(params[:group_id])
-    @post = @group.post.find(params[:id])
+ end
+
+ def update
+    if @post.update(post_params)
+      redirect_to group_path(@group), notice: "挑戰行動號角再度響起！"
+    else
+      render :edit
+    end
  end
 
  def destroy
-
-    @post = @group.posts.find(params[:id])
-
     @post.destroy
     redirect_to group_path(@group), alert: "挑戰行動已經告吹"
  end
@@ -33,6 +36,10 @@ class PostsController < ApplicationController
 
  def find_group
    @group = Group.find(params[:group_id])
+ end
+
+ def find_post
+   @post = @group.posts.find(params[:id])
  end
 
  def post_params
