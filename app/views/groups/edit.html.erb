@@ -4,7 +4,7 @@
   <hr>
   <%= simple_form_for @group do |f| %>
     <div class="form-group">
-      <%= f.input :title %>
+      <%= f.input :title, autofocus: true %>
       <%= f.input :description %>
     </div>
     <%= f.submit "挑戰再起", class: "btn btn-primary", data: { disable_with: "挑戰再起中..." } %>

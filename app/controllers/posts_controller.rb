@@ -4,11 +4,13 @@ class PostsController < ApplicationController
  before_action :find_post, only: [:edit, :update, :destroy]
 
  def new
+   @group = Group.find(params[:group_id])
    @post = @group.posts.new
  end
 
  def create
    @post = @group.posts.build(post_params)
+   @post.author = current_user
 
    if @post.save
      redirect_to group_path(@group), notice: "新增挑戰行動成功！"
@@ -40,7 +42,7 @@ class PostsController < ApplicationController
  end
 
  def find_post
-   @post = @group.posts.find(params[:id])
+   @post = current_user.posts.find(params[:id])
  end
 
  def post_params
