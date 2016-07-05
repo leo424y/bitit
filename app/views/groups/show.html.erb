@@ -1,7 +1,7 @@
 <div class="col-md-12">
   <div class="group">
-    <%= link_to("New Post", new_group_post_path(@group), class: "btn btn-warning pull-right") %>
-    <%= link_to("Edit", edit_group_path(@group), class: "btn btn-primary pull-right")%>
+    <%= link_to("挑戰。新", new_group_post_path(@group), class: "btn btn-warning pull-right") %>
+    <%= link_to("挑戰。改", edit_group_path(@group), class: "btn btn-primary pull-right")%>
   </div>
   <h2><%= @group.title %></h2>
   <p><%= @group.description %></p>
@@ -9,7 +9,7 @@
   <table class="table">
    <thead>
      <tr>
-       <th>文章</th>
+       <th>挑戰行動</th>
        <th colspan="2"></th>
      </tr>
    </thead>
@@ -18,11 +18,11 @@
        <tr>
          <td><%= post.content %></td>
          <td>
-           <%= link_to("Edit", edit_group_post_path(post.group, post),
+           <%= link_to("行動。改", edit_group_post_path(post.group, post),
                        class: "btn btn-default btn-xs")%>
-           <%= link_to("Delete", group_post_path(post.group, post),
+           <%= link_to("行動。刪", group_post_path(post.group, post),
                        class: "btn btn-default btn-xs ", method: :delete,
-                       data: { confirm: "Are you sure?" } )%>
+                       data: { confirm: "行動刪去?" } )%>
          </td>
        </tr>
      <% end %>
