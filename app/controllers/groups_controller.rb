@@ -29,7 +29,6 @@ class GroupsController < ApplicationController
   end
 
   def destroy
-    @group = Group.find(params[:id])
     @group.destroy
     redirect_to groups_path, alert: "挑戰已煙消雲散"
   end
@@ -46,7 +45,7 @@ class GroupsController < ApplicationController
 
   private
   def find_group
-    current_user.groups.find(params[:id])
+    @group = current_user.groups.find(params[:id])
   end
 
   def group_params
