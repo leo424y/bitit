@@ -1,7 +1,9 @@
 <div class="col-md-12">
   <div class="group">
-    <%= link_to("挑戰。新", new_group_post_path(@group), class: "btn btn-warning pull-right") %>
-    <%= link_to("挑戰。改", edit_group_path(@group), class: "btn btn-primary pull-right")%>
+    <% if @group.editable_by?(current_user) %>
+      <%= link_to("行動。新", new_group_post_path(@group), class: "btn btn-warning pull-right") %>
+      <%= link_to("挑戰。改", edit_group_path(@group), class: "btn btn-primary pull-right")%>
+    <% end %>
   </div>
   <h2><%= @group.title %></h2>
   <p><%= @group.description %></p>
@@ -18,11 +20,13 @@
        <tr>
          <td><%= post.content %></td>
          <td>
-           <%= link_to("行動。改", edit_group_post_path(post.group, post),
-                       class: "btn btn-default btn-xs")%>
-           <%= link_to("行動。刪", group_post_path(post.group, post),
-                       class: "btn btn-default btn-xs ", method: :delete,
-                       data: { confirm: "行動刪去?" } )%>
+           <% if @group.editable_by?(current_user) %>
+             <%= link_to("行動。改", edit_group_post_path(post.group, post),
+                         class: "btn btn-default btn-xs")%>
+             <%= link_to("行動。刪", group_post_path(post.group, post),
+                         class: "btn btn-default btn-xs ", method: :delete,
+                         data: { confirm: "行動刪去?" } )%>
+           <% end %>
          </td>
        </tr>
      <% end %>
