@@ -2,7 +2,6 @@ class GroupsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy]
   before_action :find_group, only: [:show, :edit, :update, :join, :quit]
   before_action :find_group_current_user, only: [:edit, :update, :destroy]
-  before_action :member_required, only: [:new, :create]
 
 
   def index
@@ -37,7 +36,8 @@ class GroupsController < ApplicationController
     @group = current_user.groups.new(group_params)
 
     if @group.save
-      redirect_to groups_path
+      current_user.join!(@group)
+      redirect_to groups_path, notice: "挑戰已召告天下!"
     else
       render :new
     end
@@ -65,12 +65,7 @@ class GroupsController < ApplicationController
 
   private
 
-  def member_required
-    if !current_user.is_member_of?(@group)
-      flash[:warning] = "請先入此門派，方可發戰帖!"
-      redirect_to group_path(@group)
-    end
-  end
+
 
   def find_group
     @group = Group.find(params[:id])
