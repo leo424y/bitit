@@ -1,6 +1,9 @@
 class GroupsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy]
   before_action :find_group, only: [:edit, :update, :destroy]
+  before_action :member_required, only: [:new, :create]
+
+
   def index
     @groups = Group.all
   end
@@ -44,6 +47,14 @@ class GroupsController < ApplicationController
   end
 
   private
+
+  def member_required
+    if !current_user.is_member_of?(@group)
+      flash[:warning] = "請先入此門派，方可發戰帖!"
+      redirect_to group_path(@group)
+    end
+  end
+
   def find_group
     @group = current_user.groups.find(params[:id])
   end
