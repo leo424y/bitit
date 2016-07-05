@@ -17,9 +17,9 @@
           <td><%= link_to(group.title, group_path(group)) %></td>
           <td><%= group.description %></td>
           <td>
-              <%= link_to("編", edit_group_path(group), class: "btn btn-sm btn-default")%>
+              <%= link_to("改", edit_group_path(group), class: "btn btn-sm btn-default")%>
               <%= link_to("刪", group_path(group),    class: "btn btn-sm btn-default",
-                          method: :delete, data: { confirm: "確定刪除挑戰?" } )%>
+                          method: :delete, data: { confirm: "挑戰刪去?" } )%>
           </td>
         </tr>
       <% end %>
