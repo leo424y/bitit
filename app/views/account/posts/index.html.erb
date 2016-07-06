@@ -1,0 +1,33 @@
+<div class="col-md-12">
+
+  <h2 class="text-center"> 我的挑戰行動 </h2>
+
+  <table class="table">
+    <thead>
+      <tr>
+        <th> 行動 </th>
+        <th> 挑戰</th>
+        <th> 最近更新 </th>
+        <th colspan="2"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @posts.each do |post| %>
+        <tr>
+          <td> <%= post.content %> </td>
+          <% if post.group %>
+            <td> <%= post.group.title %> </td>
+          <% else %>
+            <td>No Group </td>
+          <% end %>
+          <td> <%= post.updated_at %> </td>
+          <% if post.group %>
+            <td> <%= link_to('行動。改', edit_group_post_path(post.group, post), class: "btn btn-info btn-xs") %></td>
+            <td> <%= link_to('行動。滅', group_post_path(post.group, post), method: :delete, data: { confirm: "行動消滅?" }, class: "btn btn-danger btn-xs") %></td>
+          <% end %>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+</div>
