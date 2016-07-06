@@ -7,7 +7,7 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 puts "Hello World!"
-create_account = User.create([email: 'example@gmail.com', password: '12345678', password_confirmation: '12345678', name: '測試用帳號'])
+create_account = User.create([email: 'a@a.a', password: 'aaaaaaaa', password_confirmation: 'aaaaaaaa', name: 'A_A'])
 
 create_groups = for i in 1..20 do
                   Group.create!([title: "Group no.#{i}", description: "這是用種子建立的第 #{i} 個討論版", user_id: "1"])
