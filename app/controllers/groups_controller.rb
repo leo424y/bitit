@@ -13,7 +13,7 @@ class GroupsController < ApplicationController
   end
 
   def show
-    @posts = @group.posts
+    @posts = @group.posts.order("updated_at DESC")
   end
 
   def edit

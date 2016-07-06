@@ -28,11 +28,8 @@
          <td><%= post.content %></td>
          <td>
            <% if @group.editable_by?(current_user) %>
-             <%= link_to("行動。改", edit_group_post_path(post.group, post),
-                         class: "btn btn-default btn-xs")%>
-             <%= link_to("行動。滅", group_post_path(post.group, post),
-                         class: "btn btn-default btn-xs ", method: :delete,
-                         data: { confirm: "行動刪去?" } )%>
+             <td> <%= link_to('行動。改', edit_group_post_path(post.group, post), class: "btn btn-info btn-xs") %></td>
+             <td> <%= link_to('行動。滅', group_post_path(post.group, post), method: :delete, data: { confirm: "行動消滅?" }, class: "btn btn-danger btn-xs") %></td>
            <% end %>
          </td>
        </tr>
