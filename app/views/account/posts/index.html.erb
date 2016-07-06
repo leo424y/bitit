@@ -15,13 +15,13 @@
     <tbody>
       <% @posts.each do |post| %>
         <tr>
-          <td> <%= post.content %> </td>
+          <td> <%= simple_format(post.content) %> </td>
           <% if post.group %>
             <td> <%= post.group.title %> </td>
           <% else %>
             <td>No Group </td>
           <% end %>
-          <td> <%= post.updated_at %> </td>
+          <td> <%= post.updated_at.to_s(:long) %> </td>
           <% if post.group %>
           <td align="right">
             <%= link_to('行動。改', edit_group_post_path(post.group, post), class: "btn btn-info btn-xs") %>

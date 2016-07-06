@@ -13,7 +13,7 @@
     <% end %>
   </div>
   <h2><%= @group.title %></h2>
-  <p><%= @group.description %></p>
+  <p><%= simple_format(@group.description) %></p>
 
   <table class="table">
    <thead>
@@ -25,7 +25,7 @@
    <tbody>
      <% @posts.each do |post| %>
        <tr>
-         <td><%= post.content %></td>
+         <td><%= simple_format(post.content) %></td>
          <td>
            <% if @group.editable_by?(current_user) %>
              <td align="right">
