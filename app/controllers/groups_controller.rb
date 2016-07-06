@@ -46,9 +46,9 @@ class GroupsController < ApplicationController
   def join
     if !current_user.is_member_of?(@group)
       current_user.join!(@group)
-      flash[:notice] = "你已入此門派！"
+      flash[:notice] = "你已入此戰！"
     else
-      flash[:warning] = "你已經是本門派挑戰員了！"
+      flash[:warning] = "你已經是戰員了！"
     end
     redirect_to group_path(@group)
   end
@@ -56,9 +56,9 @@ class GroupsController < ApplicationController
   def quit
     if current_user.is_member_of?(@group)
       current_user.quit!(@group)
-      flash[:alert] = "已退出本門派！"
+      flash[:alert] = "已退出此戰！"
     else
-      flash[:warning] = "你不是本門派成員"
+      flash[:warning] = "你不是本戰成員"
     end
     redirect_to group_path(@group)
   end
