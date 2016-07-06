@@ -16,9 +16,9 @@
       <% @groups.each do |group| %>
         <tr>
           <td>#</td>
-          <td><%= link_to(truncate(group.title, length: 15), group_path(group)) %></td>
+          <td><%= link_to(render_group_title(group), group_path(group)) %></td>
           <td><%= group.posts.size %></td>
-          <td><%= truncate(group.description, length: 30) %></td>
+          <td><%= render_group_description(group) %></td>
           <td align="right"> <%= group.updated_at.to_s(:long)  %> </td>
         </tr>
       <% end %>
