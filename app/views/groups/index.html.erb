@@ -18,9 +18,11 @@
           <td><%= group.description %></td>
           <td>
             <% if group.editable_by?(current_user) %>
-              <%= link_to("改", edit_group_path(group), class: "btn btn-sm btn-default")%>
-              <%= link_to("滅", group_path(group),    class: "btn btn-sm btn-default",
+            <td align="right">
+              <%= link_to("改", edit_group_path(group), class: "btn btn-sm btn-info")%>
+              <%= link_to("滅", group_path(group),    class: "btn btn-sm btn-danger",
                           method: :delete, data: { confirm: "挑戰刪去?" } )%>
+            </td>
             <% end %>
           </td>
         </tr>

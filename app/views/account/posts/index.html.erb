@@ -23,8 +23,10 @@
           <% end %>
           <td> <%= post.updated_at %> </td>
           <% if post.group %>
-            <td> <%= link_to('行動。改', edit_group_post_path(post.group, post), class: "btn btn-info btn-xs") %></td>
-            <td> <%= link_to('行動。滅', group_post_path(post.group, post), method: :delete, data: { confirm: "行動消滅?" }, class: "btn btn-danger btn-xs") %></td>
+          <td align="right">
+            <%= link_to('行動。改', edit_group_post_path(post.group, post), class: "btn btn-info btn-xs") %>
+            <%= link_to('行動。滅', group_post_path(post.group, post), method: :delete, data: { confirm: "行動消滅?" }, class: "btn btn-danger btn-xs") %>
+          </td>
           <% end %>
         </tr>
       <% end %>
