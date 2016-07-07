@@ -1,5 +1,5 @@
 class Group < ActiveRecord::Base
-  validates :title, presence: true
+  validates :title, presence: true, length: { maximum: 20 }
 
   has_many :posts, dependent: :destroy
   has_many :group_users
