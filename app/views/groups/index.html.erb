@@ -1,4 +1,8 @@
 <div class="col-md-12">
+  <object data="https://tools.wmflabs.org/idsgen/⿺辶⿴宀⿱珤⿰隹⿰貝招.svg?字體=宋體" type="image/svg+xml" style="height: 200px; width: 200px; " />
+    <!-- <img src="https://tools.wmflabs.org/idsgen/⿺辶⿴宀⿱珤⿰隹⿰貝招.png?字體=宋體" /> -->
+  </object>
+  <!-- <img  align=middle alt="⿺辶⿴宀⿱珤⿰隹⿰貝招⿺辶⿴宀⿱珤⿰隹⿰貝招" src="https://tools.wmflabs.org/idsgen/⿺辶⿴宀⿱珤⿰隹⿰貝招.png?字體=宋體" style="height: 10em; width: 10em; vertical-align: middle; margin: 0.4em 0px 0.7em; "  /> -->
   <div class="挑戰">
     <%= link_to("新挑戰", new_group_path, class: "btn btn-primary pull-right") %>
   </div>
@@ -7,7 +11,8 @@
       <tr>
         <td>#</td>
         <td>名稱</td>
-        <td>行動數</td>
+        <td>行動</td>
+        <td>字造</td>
         <td>描述</td>
         <td align="right">最近更新</td>
       </tr>
@@ -18,6 +23,7 @@
           <td>#</td>
           <td><%= link_to(render_group_title(group), group_path(group)) %></td>
           <td><%= group.posts.size %></td>
+          <td><%= image_tag("https://tools.wmflabs.org/idsgen/#{group.title}.png?字體=宋體", :alt => group.title) %></td>
           <td><%= render_group_description(group) %></td>
           <td align="right"> <%= group.updated_at.to_s(:long)  %> </td>
         </tr>

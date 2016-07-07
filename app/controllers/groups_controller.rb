@@ -5,7 +5,7 @@ class GroupsController < ApplicationController
 
 
   def index
-    @groups = Group.includes(:posts).order("posts_count DESC")
+    @groups = Group.includes(:posts).recent
   end
 
   def new
