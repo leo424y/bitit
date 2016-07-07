@@ -11,7 +11,7 @@
       <tr>
         <td>#</td>
         <td>名稱</td>
-        <td>行動</td>
+        <td>解字</td>
         <td>字造</td>
         <td>描述</td>
         <td align="right">最近更新</td>
@@ -23,7 +23,7 @@
           <td>#</td>
           <td><%= link_to(render_group_title(group), group_path(group)) %></td>
           <td><%= group.posts.size %></td>
-          <td><%= image_tag("https://tools.wmflabs.org/idsgen/#{group.title}.png?字體=宋體", :alt => group.title) %></td>
+          <td><%= image_tag("https://tools.wmflabs.org/idsgen/#{group.title}.png?字體=宋體", size: "100", alt: group.title) %></td>
           <td><%= render_group_description(group) %></td>
           <td align="right"> <%= group.updated_at.to_s(:long)  %> </td>
         </tr>
