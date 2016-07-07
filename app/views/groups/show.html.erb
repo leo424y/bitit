@@ -6,19 +6,19 @@
     <% end %>
     <% if current_user.present? %>
       <% if current_user.is_member_of?(@group) %>
-        <%= link_to("戰逃", quit_group_path(@group), method: :post, class: "btn btn-danger") %>
+        <%= link_to("離", quit_group_path(@group), method: :post, class: "btn btn-danger") %>
       <% else %>
-        <%= link_to("入戰", join_group_path(@group), method: :post, class: "btn btn-info") %>
+        <%= link_to("入", join_group_path(@group), method: :post, class: "btn btn-info") %>
       <% end %>
     <% end %>
   </div>
-  <img src="https://tools.wmflabs.org/idsgen/⿺辶⿴宀⿱珤⿰隹⿰貝招.png?字體=宋體" style="height: 200px; width: 200px; " />
+  <td><%= image_tag("https://tools.wmflabs.org/idsgen/#{group.title}.png?字體=宋體", size: "100", alt: group.title) %></td>
   <h2><%= @group.title %></h2>
   <p><%= simple_format(@group.description) %></p>
   <table class="table">
    <thead>
      <tr>
-       <th>挑戰行動</th>
+       <th>解字</th>
        <th colspan="2"></th>
      </tr>
    </thead>
@@ -30,7 +30,7 @@
            <% if @group.editable_by?(current_user) %>
              <td align="right">
                <%= link_to('改', edit_group_post_path(post.group, post), class: "btn btn-info btn-xs") %>
-               <%= link_to('滅', group_post_path(post.group, post), method: :delete, data: { confirm: "行動消滅?" }, class: "btn btn-danger btn-xs") %>
+               <%= link_to('滅', group_post_path(post.group, post), method: :delete, data: { confirm: "解字消滅?" }, class: "btn btn-danger btn-xs") %>
              </td>
            <% end %>
          </td>
