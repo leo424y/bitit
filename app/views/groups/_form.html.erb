@@ -1,6 +1,7 @@
 <%= simple_form_for @group do |f| %>
   <div class="form-group">
     <%= f.input :title, autofocus: true %>
+    <!-- <%= f.association :materials, :as => :check_boxes %> -->
     <%= f.input :description %>
   </div>
   <%= f.submit "戰帖送出", class: "btn btn-primary", data: { disable_with: "戰帖送出中..." } %>
