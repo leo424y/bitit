@@ -5,7 +5,7 @@ class GroupsController < ApplicationController
 
 
   def index
-    @groups = Group.all.order("posts_count DESC")
+    @groups = Group.includes(:posts).order("posts_count DESC")
   end
 
   def new
