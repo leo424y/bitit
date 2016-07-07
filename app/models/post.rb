@@ -1,5 +1,5 @@
 class Post < ActiveRecord::Base
-  scope :recent, -> { order("updated_at DESC")}
+  scope :recent, -> { order("updated_at DESC") }
 
   validates :content, presence: true, length: { maximum: 25 }
   belongs_to :group, counter_cache: :posts_count
