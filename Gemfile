@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem "rails-i18n"
+
 gem "devise"
 
 gem 'bootstrap-sass'

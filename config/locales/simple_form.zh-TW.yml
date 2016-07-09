@@ -1,9 +1,11 @@
-en:
+zh-TW:
   simple_form:
-    "yes": 'Yes'
-    "no": 'No'
+    Title: '主題'
+    Description: '想法'
+    "yes": '是'
+    "no": '否'
     required:
-      text: 'required'
+      text: '必需輸入'
       mark: '*'
       # You can uncomment the line below if you need to overwrite the whole required html.
       # When using html, text and mark won't be used.

@@ -19,7 +19,5 @@
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
 
-"zh-TW":
-  hello: "哈囉"
-  Title: '主題'
-  Description: '想法'
+en:
+  hello: "Hello world"
