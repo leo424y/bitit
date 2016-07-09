@@ -1,7 +1,13 @@
 zh-TW:
+  devise:
+    sessions:
+      user:
+        signed_out: '登出成功, 歡迎再造'
+        signed_in: '登入成功，歡迎來造'
   simple_form:
-    Title: '主題'
-    Description: '想法'
+    form-group:
+      Title: '主題'
+      Description: '想法'
     "yes": '是'
     "no": '否'
     required:
