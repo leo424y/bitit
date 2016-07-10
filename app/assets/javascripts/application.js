@@ -16,3 +16,4 @@
 //= require bootstrap/dropdown
 //= require bootstrap/alert
 //= require_tree .
+//= require keyboard/jquery.keyboard.min
