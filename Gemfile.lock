@@ -165,6 +165,7 @@ GEM
       thread_safe (~> 0.1)
     uglifier (3.0.0)
       execjs (>= 0.3.0, < 3)
+    virtual_keyboard (0.1.0)
     warden (1.2.3)
       rack (>= 1.0)
     web-console (2.3.0)
@@ -194,6 +195,7 @@ DEPENDENCIES
   sqlite3
   turbolinks
   uglifier (>= 1.3.0)
+  virtual_keyboard
   web-console (~> 2.0)
 
 BUNDLED WITH

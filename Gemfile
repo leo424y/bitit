@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem "virtual_keyboard"
+
 gem "rails-i18n"
 
 gem "devise"
