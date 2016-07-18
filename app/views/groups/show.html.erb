@@ -38,6 +38,6 @@
      <% end %>
    </tbody>
   </table>
-  <%= social_share_button_tag(@group.title, :popup => "true", :url => "https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=宋體") %>
+  <%= social_share_button_tag(@group.title, :popup => "true", :url => request.original_url, :image => "https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=宋體") %>
   <%= render 'disqus' %>
 </div>
