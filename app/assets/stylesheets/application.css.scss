@@ -13,6 +13,8 @@
  *= require_tree .
  *= require_self
  *= require keyboard/keyboard-basic.min
+ *= require social-share-button
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "social-share-button";

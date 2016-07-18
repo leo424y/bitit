@@ -17,3 +17,4 @@
 //= require bootstrap/alert
 //= require_tree .
 //= require keyboard/jquery.keyboard.min
+//= require social-share-button

@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'social-share-button', '~> 0.2.1'
+
 gem "virtual_keyboard"
 
 gem "rails-i18n"

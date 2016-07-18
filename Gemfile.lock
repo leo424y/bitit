@@ -146,6 +146,9 @@ GEM
     simple_form (3.2.1)
       actionpack (> 4, < 5.1)
       activemodel (> 4, < 5.1)
+    social-share-button (0.2.1)
+      coffee-rails
+      sass-rails
     spring (1.7.2)
     sprockets (3.6.3)
       concurrent-ruby (~> 1.0)
@@ -191,6 +194,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   simple_form
+  social-share-button (~> 0.2.1)
   spring
   sqlite3
   turbolinks
