@@ -4,3 +4,16 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+GroupsController	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^class GroupsController < ApplicationController$/;"	class	line:1
+index	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def index$/;"	method	line:7	class:GroupsController
+new	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def new$/;"	method	line:11	class:GroupsController
+show	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def show$/;"	method	line:15	class:GroupsController
+edit	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def edit$/;"	method	line:19	class:GroupsController
+update	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def update$/;"	method	line:22	class:GroupsController
+destroy	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def destroy$/;"	method	line:30	class:GroupsController
+create	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def create$/;"	method	line:35	class:GroupsController
+join	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def join$/;"	method	line:46	class:GroupsController
+quit	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def quit$/;"	method	line:56	class:GroupsController
+find_group	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group$/;"	method	line:70	class:GroupsController
+find_group_current_user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group_current_user$/;"	method	line:74	class:GroupsController
+group_params	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def group_params$/;"	method	line:78	class:GroupsController

@@ -21,7 +21,7 @@ class GroupsController < ApplicationController
 
   def update
     if @group.update(group_params)
-      redirect_to groups_path, notice: "挑戰更新成功"
+      redirect_to groups_path, notice: "造字更新成功"
     else
       render :edit
     end
@@ -29,7 +29,7 @@ class GroupsController < ApplicationController
 
   def destroy
     @group.destroy
-    redirect_to groups_path, alert: "挑戰已煙消雲散"
+    redirect_to groups_path, alert: "造字已煙消雲散"
   end
 
   def create
@@ -37,7 +37,7 @@ class GroupsController < ApplicationController
 
     if @group.save
       current_user.join!(@group)
-      redirect_to groups_path, notice: "挑戰已召告天下!"
+      redirect_to groups_path, notice: "造字已召告天下!"
     else
       render :new
     end
@@ -46,9 +46,9 @@ class GroupsController < ApplicationController
   def join
     if !current_user.is_member_of?(@group)
       current_user.join!(@group)
-      flash[:notice] = "你已入此戰！"
+      flash[:notice] = "你已開始信此字"
     else
-      flash[:warning] = "你已經是戰員了！"
+      flash[:warning] = "你早已是此字信眾"
     end
     redirect_to group_path(@group)
   end
@@ -56,9 +56,9 @@ class GroupsController < ApplicationController
   def quit
     if current_user.is_member_of?(@group)
       current_user.quit!(@group)
-      flash[:alert] = "已退出此戰！"
+      flash[:alert] = "你已不信此字"
     else
-      flash[:warning] = "你不是本戰成員"
+      flash[:warning] = "你不是本字信眾"
     end
     redirect_to group_path(@group)
   end
