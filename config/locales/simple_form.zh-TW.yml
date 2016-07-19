@@ -1,4 +1,25 @@
 zh-TW:
+  simple_form:
+    labels:
+      title: 字碼
+      description: 解說
+      user:
+        username: 'User name'
+        password: 'Password'
+    hints:
+      user:
+        username: 'User name to sign in.'
+        password: 'No special characters, please.'
+    placeholders:
+      user:
+        username: 'Your username'
+        password: '****'
+    include_blanks:
+      user:
+        age: 'Rather not say'
+    prompts:
+      user:
+        role: 'Select your role'
   devise:
     confirmations:
       confirmed: 您的帳號已經過確認，現在您已成功登入。

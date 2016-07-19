@@ -11,3 +11,94 @@ quit	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_control
 find_group	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group$/;"	method	line:70	class:GroupsController
 find_group_current_user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group_current_user$/;"	method	line:74	class:GroupsController
 group_params	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def group_params$/;"	method	line:78	class:GroupsController
+simple_form	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^  simple_form:$/;"	function	line:2
+labels	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    labels:$/;"	function	line:3
+title	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      title: 字碼$/;"	function	line:4
+description	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      description: 解說$/;"	function	line:5
+user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      user:$/;"	function	line:6
+username	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        username: 'User name'$/;"	function	line:7
+password	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        password: 'Password'$/;"	function	line:8
+hints	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    hints:$/;"	function	line:9
+user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      user:$/;"	function	line:10
+username	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        username: 'User name to sign in.'$/;"	function	line:11
+password	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        password: 'No special characters, please.'$/;"	function	line:12
+placeholders	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    placeholders:$/;"	function	line:13
+user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      user:$/;"	function	line:14
+username	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        username: 'Your username'$/;"	function	line:15
+password	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        password: '****'$/;"	function	line:16
+include_blanks	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    include_blanks:$/;"	function	line:17
+user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      user:$/;"	function	line:18
+age	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        age: 'Rather not say'$/;"	function	line:19
+prompts	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    prompts:$/;"	function	line:20
+user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      user:$/;"	function	line:21
+role	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        role: 'Select your role'$/;"	function	line:22
+devise	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^  devise:$/;"	function	line:23
+confirmations	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    confirmations:$/;"	function	line:24
+confirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      confirmed: 您的帳號已經過確認，現在您已成功登入。$/;"	function	line:25
+send_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      send_instructions: 您將在幾分鐘後收到一封電子郵件，內有確認帳號的步驟說明。$/;"	function	line:26
+send_paranoid_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      send_paranoid_instructions: 如果此電子郵件信箱真存在於資料庫中的話，您將在幾分鐘後收到一封電子郵件， 說明確認帳號的手續。$/;"	function	line:27
+failure	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    failure:$/;"	function	line:28
+user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      user:$/;"	function	line:29
+unauthenticated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        unauthenticated: 請先登入，字造有路。$/;"	function	line:30
+already_authenticated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      already_authenticated: 你已經登入。$/;"	function	line:31
+inactive	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      inactive: 您的帳號尚未被啟用。$/;"	function	line:32
+invalid	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      invalid: Email 或密碼是無效的。$/;"	function	line:33
+invalid_token	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      invalid_token: 無效的認證代碼。$/;"	function	line:34
+locked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      locked: 您的帳號已被鎖定。$/;"	function	line:35
+timeout	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      timeout: 您的登入時效過期，請重新登入，才能繼續。$/;"	function	line:36
+unauthenticated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      unauthenticated: 您需要先註冊，登入後才能繼續。$/;"	function	line:37
+unconfirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      unconfirmed: 您的帳號需需要經過確認後，才能繼續。$/;"	function	line:38
+mailer	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    mailer:$/;"	function	line:39
+confirmation_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      confirmation_instructions:$/;"	function	line:40
+subject	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        subject: 確認步驟$/;"	function	line:41
+reset_password_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      reset_password_instructions:$/;"	function	line:42
+subject	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        subject: 重設密碼步驟$/;"	function	line:43
+unlock_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      unlock_instructions:$/;"	function	line:44
+subject	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        subject: 解鎖步驟$/;"	function	line:45
+omniauth_callbacks	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    omniauth_callbacks:$/;"	function	line:46
+failure	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      failure: 因為「%{reason}」，無法認證您的 %{kind} 帳戶$/;"	function	line:47
+success	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      success: 已成功認證您的 %{kind} 帳戶$/;"	function	line:48
+passwords	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    passwords:$/;"	function	line:49
+send_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      send_instructions: 您將在幾分鐘後收到一封電子郵件，內有重新設定密碼的步驟說明。$/;"	function	line:50
+send_paranoid_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      send_paranoid_instructions: 如果此電子郵件信箱真存在於資料庫中的話，您將在幾分鐘後收到一封電子郵件，內有回復密碼專用的網址。$/;"	function	line:51
+updated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      updated: 您的密碼已被修改，而您現在已重新登入。$/;"	function	line:52
+updated_not_active	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      updated_not_active: 您的密碼已被修改。$/;"	function	line:53
+registrations	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    registrations:$/;"	function	line:54
+destroyed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      destroyed: 再會！您的帳號已被註銷。有緣再會。$/;"	function	line:55
+signed_up	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      signed_up: 歡迎！您已經成功註冊。$/;"	function	line:56
+signed_up_but_inactive	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      signed_up_but_inactive: 您已經成功註冊。但因帳號尚未啟用，目前暫時不能登入。$/;"	function	line:57
+signed_up_but_locked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      signed_up_but_locked: 您已經成功註冊。可是，因為帳號被鎖住，目前暫時不能登入。$/;"	function	line:58
+signed_up_but_unconfirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      signed_up_but_unconfirmed: 已傳送帳號確認信件至您的 Email 信箱，請收信、並點擊信中確認網址，以便啟用您的帳號。$/;"	function	line:59
+update_needs_confirmation	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      update_needs_confirmation: 您的帳號資料已成功更新，但您的新 Email 信箱需要再次被確認。請收信、並點擊信中確認用的網址，以便完成信箱確認手續。$/;"	function	line:60
+updated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      updated: 您已經成功的更新帳號資訊。$/;"	function	line:61
+sessions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    sessions:$/;"	function	line:62
+signed_in	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      signed_in: 登出成功，歡迎再造喔。$/;"	function	line:63
+signed_out	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      signed_out: 登入成功，歡迎來造喔。$/;"	function	line:64
+unlocks	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    unlocks:$/;"	function	line:65
+send_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      send_instructions: 您將在幾分鐘後收到一封電子郵件，內有將帳號解除鎖定的步驟說明。$/;"	function	line:66
+send_paranoid_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      send_paranoid_instructions: 如果此帳號真的存在的話，您將在幾分鐘後收到一封電子郵件，內有將帳號解除鎖定的步驟說明。$/;"	function	line:67
+unlocked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      unlocked: 您的帳號已被解鎖，現在您已成功登入。$/;"	function	line:68
+errors	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^  errors:$/;"	function	line:69
+messages	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    messages:$/;"	function	line:70
+already_confirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      already_confirmed: 已被確認過了，請試著登入看看$/;"	function	line:71
+expired	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      expired: 已經過期了，請再要一個新的$/;"	function	line:72
+not_found	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      not_found: 沒有找到$/;"	function	line:73
+not_locked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      not_locked: 被鎖定了$/;"	function	line:74
+not_saved	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      not_saved:$/;"	function	line:75
+one	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        one: 有一個錯誤導致%{resource}不能被儲存：$/;"	function	line:76
+other	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^        other: 有 %{count} 個錯誤導致%{resource}不能被儲存：$/;"	function	line:77
+simple_form	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^  simple_form:$/;"	function	line:78
+Title	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      Title: '主題'$/;"	function	line:80
+Description	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      Description: '想法'$/;"	function	line:81
+required	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    required:$/;"	function	line:84
+text	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      text: '必需輸入'$/;"	function	line:85
+mark	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      mark: '*'$/;"	function	line:86
+error_notification	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    error_notification:$/;"	function	line:90
+default_message	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      default_message: "Please review the problems below:"$/;"	function	line:91
+en	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^en:$/;"	function	line:1
+simple_form	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^  simple_form:$/;"	function	line:2
+required	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^    required:$/;"	function	line:5
+text	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^      text: '必填'$/;"	function	line:6
+mark	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^      mark: '*'$/;"	function	line:7
+error_notification	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^    error_notification:$/;"	function	line:11
+default_message	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^      default_message: "Please review the problems below:"$/;"	function	line:12
