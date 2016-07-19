@@ -1,5 +1,6 @@
 = simple_form_for @group do |f|
   .form-group
     = f.input :title, autofocus: true
-    = f.input :description
+    -# = f.input :description
+    = f.collection_radio_buttons :description, [['宋體', '宋'] ,['楷體', '楷']], :first, :last
   = f.submit "送出", class: "btn btn-primary", data: { disable_with: "送出中..." }

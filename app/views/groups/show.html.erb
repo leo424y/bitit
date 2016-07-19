@@ -12,7 +12,7 @@
       <% end %>
     <% end %>
   </div>
-  <td><%= image_tag("https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=宋體", size: "100", alt: @group.title) %></td>
+  <td><%= image_tag("https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=#{@group.description}", size: "100", alt: @group.title) %></td>
   <h2><%= @group.title %></h2>
   <p><%= simple_format(@group.description) %></p>
   <table class="table table-responsive">
