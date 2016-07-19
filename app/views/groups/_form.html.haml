@@ -1,0 +1,5 @@
+= simple_form_for @group do |f|
+  .form-group
+    = f.input :title, autofocus: true
+    = f.input :description
+  = f.submit "送出", class: "btn btn-primary", data: { disable_with: "送出中..." }

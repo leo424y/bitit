@@ -1,17 +1,11 @@
 source 'https://rubygems.org'
-
+gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'social-share-button', '~> 0.2.1'
-
 gem "virtual_keyboard"
-
 gem "rails-i18n"
-
 gem "devise"
-
 gem 'bootstrap-sass'
-
 gem 'simple_form'
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
