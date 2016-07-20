@@ -15,7 +15,7 @@ class PostsController < ApplicationController
    @post.author = current_user
 
    if @post.save
-     redirect_to group_path(@group), notice: "新增挑戰行動成功！"
+     redirect_to group_path(@group), notice: "新增解字成功！"
    else
      render :new
    end
@@ -26,7 +26,7 @@ class PostsController < ApplicationController
 
  def update
     if @post.update(post_params)
-      redirect_to group_path(@group), notice: "挑戰行動號角再度響起！"
+      redirect_to group_path(@group), notice: "解字已更新！"
     else
       render :edit
     end
@@ -34,7 +34,7 @@ class PostsController < ApplicationController
 
  def destroy
     @post.destroy
-    redirect_to group_path(@group), alert: "挑戰行動已經告吹"
+    redirect_to group_path(@group), alert: "解字已經刪除"
  end
 
  private
@@ -54,7 +54,7 @@ end
 
 def member_required
   if !current_user.is_member_of?(@group)
-    flash[:warning] = "請先入此戰，方可發戰帖!"
+    flash[:warning] = "請先信此字，方可解字!"
     redirect_to group_path(@group)
   end
 end

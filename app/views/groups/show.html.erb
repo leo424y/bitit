@@ -2,7 +2,7 @@
   <div class="group">
     <% if @group.editable_by?(current_user) %>
       <%= link_to("解字。新", new_group_post_path(@group), class: "btn btn-warning pull-right") %>
-      <%= link_to("解字。改", edit_group_path(@group), class: "btn btn-primary pull-right")%>
+      <%= link_to("字造。改", edit_group_path(@group), class: "btn btn-primary pull-right")%>
     <% end %>
     <% if current_user.present? %>
       <% if current_user.is_member_of?(@group) %>
