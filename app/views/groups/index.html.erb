@@ -1,30 +1,21 @@
 <div class="col-md-12">
-  <img src="https://tools.wmflabs.org/idsgen/⿺辶⿴宀⿱珤⿰隹⿰貝招.png?字體=宋體" type="image/svg+xml" style="height: 150px; width: 150px; " />
-  <div class="字造">
-    <%= link_to("新字造", new_group_path, class: "btn btn-primary pull-left") %>
+  <% if current_user %>
+    <%= link_to("新字造", new_group_path, class: "btn btn-primary btn-lg") %>
+  <% end %>
+  <br>
+  <!-- <img src="https://tools.wmflabs.org/idsgen/⿺辶⿴宀⿱珤⿰隹⿰貝招.png?字體=宋體" type="image/svg+xml" style="height: 150px; width: 150px; " /> -->
+  <div id="masonry-container" class="transitions-enabled fluid">
+    <br>
+    <% @groups.each do |group| %>
+      <div class="box col1" align="center">
+        <%= link_to(image_tag("https://tools.wmflabs.org/idsgen/#{group.title}.png?字體=宋體粗體", size: "100", alt: group.title, class: "img-responsive"), group_path(group))%>
+        <p>
+          <%= render_group_description(group) %>
+          <!-- <%= link_to(render_group_title(group), group_path(group)) %> -->
+          <!-- <%= group.posts.size %> -->
+          <!-- <%= group.updated_at.to_s(:short)  %> -->
+        </p>
+      </div>
+    <% end %>
   </div>
-  <table class="table table-responsive">
-    <thead>
-      <tr>
-        <td>#</td>
-        <td>名稱</td>
-        <td>解字</td>
-        <td>字造</td>
-        <td>描述</td>
-        <td align="right">最近更新</td>
-      </tr>
-    </thead>
-    <tbody>
-      <% @groups.each do |group| %>
-        <tr>
-          <td>#</td>
-          <td><%= link_to(render_group_title(group), group_path(group)) %></td>
-          <td><%= group.posts.size %></td>
-          <td><%= image_tag("https://tools.wmflabs.org/idsgen/#{group.title}.png?字體=宋體粗體", size: "100", alt: group.title, class: "img-responsive") %></td>
-          <td><%= render_group_description(group) %></td>
-          <td align="right"> <%= group.updated_at.to_s(:long)  %> </td>
-        </tr>
-      <% end %>
-    </tbody>
-  </table>
 </div>

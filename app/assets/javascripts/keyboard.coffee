@@ -1,0 +1,3 @@
+$ ->
+  $('#keyboard').keyboard
+    lockInput: true

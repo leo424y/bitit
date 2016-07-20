@@ -102,3 +102,11 @@ text	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.
 mark	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^      mark: '*'$/;"	function	line:7
 error_notification	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^    error_notification:$/;"	function	line:11
 default_message	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^      default_message: "Please review the problems below:"$/;"	function	line:12
+GroupsHelper	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/helpers/groups_helper.rb	/^module GroupsHelper$/;"	module	line:1
+render_group_title	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/helpers/groups_helper.rb	/^  def render_group_title(group)$/;"	method	line:2	class:GroupsHelper
+render_group_description	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/helpers/groups_helper.rb	/^  def render_group_description(group)$/;"	method	line:5	class:GroupsHelper
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^ * Any CSS and SCSS file within this directory, lib\/assets\/stylesheets, vendor\/assets\/stylesheets,$/;"	function	line:5
+#masonry-container	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^#masonry-container {$/;"	function	line:29
+.clearfix:before, .clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^.clearfix:before, .clearfix:after { content: ""; display: table; }$/;"	function	line:40
+.clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^.clearfix:after { clear: both; }$/;"	function	line:41
+.clearfix	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^.clearfix { zoom: 1; }$/;"	function	line:42

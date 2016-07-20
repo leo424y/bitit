@@ -12,9 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require masonry/jquery.masonry
 //= require turbolinks
 //= require bootstrap/dropdown
 //= require bootstrap/alert
+//= require bootstrap-sprockets
 //= require_tree .
 //= require keyboard/jquery.keyboard.min
 //= require social-share-button

@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+
+gem 'masonry-rails', '~> 0.2.4'
+# gem 'paperclip', '~> 5.0' 圖片上傳
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'social-share-button', '~> 0.2.1'
 gem "virtual_keyboard"

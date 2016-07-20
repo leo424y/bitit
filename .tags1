@@ -4,10 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-en	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^en:$/;"	function	line:1
-simple_form	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^  simple_form:$/;"	function	line:2
-required	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^    required:$/;"	function	line:5
-text	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^      text: '必填'$/;"	function	line:6
-mark	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^      mark: '*'$/;"	function	line:7
-error_notification	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^    error_notification:$/;"	function	line:11
-default_message	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.en.yml	/^      default_message: "Please review the problems below:"$/;"	function	line:12
