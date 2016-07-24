@@ -12,7 +12,7 @@
       <% end %>
     <% end %>
   </div>
-  <td><%= image_tag("https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=#{@group.font}", size: "100", alt: @group.title) %></td>
+  <td><%= content_tag(:a , image_tag("https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=#{@group.font}", size: "100", alt: @group.title),:href => "https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=#{@group.font}" ,:download =>"#{@group.title}" ) %></td>
   <h2><%= @group.title %></h2>
   <h2><%= @group.font %></h2>
   <p><%= simple_format(@group.description) %></p>
