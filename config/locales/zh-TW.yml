@@ -9,15 +9,15 @@ zh-TW:
   simple_form:
     labels:
       user:
-        username: 'User name'
-        password: 'Password'
+        username: '名稱'
+        password: '密碼'
     hints:
       user:
-        username: 'User name to sign in.'
-        password: 'No special characters, please.'
+        username: '登入使用者名稱'
+        password: '別用特殊字元拜託'
     placeholders:
       user:
-        username: 'Your username'
+        username: '你的名稱'
         password: '****'
     include_blanks:
       user:
@@ -65,8 +65,8 @@ zh-TW:
       update_needs_confirmation: 您的帳號資料已成功更新，但您的新 Email 信箱需要再次被確認。請收信、並點擊信中確認用的網址，以便完成信箱確認手續。
       updated: 您已經成功的更新帳號資訊。
     sessions:
-      signed_in: 登出成功，歡迎再造喔。
-      signed_out: 登入成功，歡迎來造喔。
+      signed_in: 登入成功，歡迎來造。
+      signed_out: 登出成功，歡迎再造喔。
     unlocks:
       send_instructions: 您將在幾分鐘後收到一封電子郵件，內有將帳號解除鎖定的步驟說明。
       send_paranoid_instructions: 如果此帳號真的存在的話，您將在幾分鐘後收到一封電子郵件，內有將帳號解除鎖定的步驟說明。
