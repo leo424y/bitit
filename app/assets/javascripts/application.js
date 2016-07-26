@@ -17,6 +17,9 @@
 //= require bootstrap/dropdown
 //= require bootstrap/alert
 //= require bootstrap-sprockets
+//= require react
+//= require react_ujs
+//= require components
 //= require_tree .
 //= require keyboard/jquery.keyboard.min
 //= require social-share-button
