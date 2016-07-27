@@ -1,5 +1,5 @@
 import React from 'react';
-import 組字圖 from './組字圖';
+import 組字圖 from './組字圖.js';
 import 鍵盤 from './鍵盤';
 
 export default class 線上組字 extends React.Component {
@@ -35,11 +35,11 @@ export default class 線上組字 extends React.Component {
             </td>
           </tr>
           </tbody></table>
-          
+
           <br />
           <鍵盤 加物件={this.addTextonInputSelection.bind(this)} />
           </section>
-          
+
         </article>
      );
   }
