@@ -1,0 +1,2 @@
+class AskwordsController < ApplicationController
+end
