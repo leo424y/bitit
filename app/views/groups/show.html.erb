@@ -4,6 +4,7 @@
       <%= link_to("解字。新", new_group_post_path(@group), class: "btn btn-success pull-right") %>
       <%= link_to("字造。改", edit_group_path(@group), class: "btn btn-primary pull-right")%>
     <% end %>
+    <%= link_to("字造。再創", fork_group_path(@group), class: "btn btn-primary pull-right")%>
     <% if current_user.present? %>
       <% if current_user.is_member_of?(@group) %>
         <%= link_to("不採", quit_group_path(@group), method: :post, class: "btn btn-danger") %>

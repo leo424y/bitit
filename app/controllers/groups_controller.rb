@@ -1,8 +1,7 @@
 class GroupsController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy]
-  before_action :find_group, only: [:show, :edit, :update, :join, :quit]
-  before_action :find_group_current_user, only: [:edit, :update, :destroy]
-
+  before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy, :fork]
+  before_action :find_group, only: [:show, :edit, :update, :join, :quit, :fork]
+  before_action :find_group_current_user, only: [:edit, :update, :destroy, :fork]
 
   def index
     @groups = Group.includes(:posts).recent
@@ -34,13 +33,15 @@ class GroupsController < ApplicationController
 
   def create
     @group = current_user.groups.new(group_params)
-
     if @group.save
       current_user.join!(@group)
       redirect_to groups_path, notice: "造字已召告天下!"
     else
       render :new
     end
+  end
+
+  def fork
   end
 
   def join
@@ -64,8 +65,6 @@ class GroupsController < ApplicationController
   end
 
   private
-
-
 
   def find_group
     @group = Group.find(params[:id])

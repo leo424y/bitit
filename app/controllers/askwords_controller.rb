@@ -1,6 +1,6 @@
 class AskwordsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy]
-  before_action :find_askword, only: [:show, :edit, :update, :join, :quit]
+  before_action :find_askword, only: [:show, :edit, :update]
   before_action :find_askword_current_user, only: [:edit, :update, :destroy]
 
 
@@ -36,31 +36,10 @@ class AskwordsController < ApplicationController
     @askword = current_user.askwords.new(askword_params)
 
     if @askword.save
-      current_user.join!(@askword)
       redirect_to askwords_path, notice: "求字已召告天下!"
     else
       render :new
     end
-  end
-
-  def join
-    if !current_user.is_member_of?(@askword)
-      current_user.join!(@askword)
-      flash[:notice] = "你已開求此字"
-    else
-      flash[:warning] = "你早已是求此字"
-    end
-    redirect_to askword_path(@askword)
-  end
-
-  def quit
-    if current_user.is_member_of?(@askword)
-      current_user.quit!(@askword)
-      flash[:alert] = "你已不求此字"
-    else
-      flash[:warning] = "你不是求眾"
-    end
-    redirect_to askword_path(@askword)
   end
 
   private

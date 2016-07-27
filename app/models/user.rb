@@ -23,15 +23,6 @@ class User < ActiveRecord::Base
     participated_groups.include?(group)
   end
 
-
-  def join!(askword)
-    participated_askwords << askword
-  end
-
-  def quit!(askword)
-    participated_askwords.delete(askword)
-  end
-
   def is_member_of?(askword)
     participated_askwords.include?(askword)
   end

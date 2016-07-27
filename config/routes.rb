@@ -12,12 +12,12 @@ Rails.application.routes.draw do
     member do
       post :join
       post :quit
+      post :fork
+      get :fork
     end
     resources :posts
   end
-
   resources :askwords
-
 
   #resources :groups
   #root 'welcome#index'
