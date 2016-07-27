@@ -1,7 +1,7 @@
 class GroupsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy, :fork]
   before_action :find_group, only: [:show, :edit, :update, :join, :quit, :fork]
-  before_action :find_group_current_user, only: [:edit, :update, :destroy, :fork]
+  before_action :find_group_current_user, only: [:edit, :update, :destroy]
 
   def index
     @groups = Group.includes(:posts).recent
