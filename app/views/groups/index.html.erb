@@ -1,13 +1,11 @@
 <div class="col-md-12">
-  <% if current_user %>
-    <%= link_to("新字造", new_group_path, class: "btn btn-primary btn-lg") %>
-  <% end %>
+  <%= render "common/mainfunction" %>
   <br>
   <!-- <img src="https://tools.wmflabs.org/idsgen/⿺辶⿴宀⿱珤⿰隹⿰貝招.png?字體=宋體" type="image/svg+xml" style="height: 150px; width: 150px; " /> -->
   <div id="masonry-container" class="transitions-enabled fluid">
     <br>
     <% @groups.each do |group| %>
-      <div class="box col1" align="center">
+      <div class="box" align="center" background-color= #bda >
         <%= link_to(image_tag("https://tools.wmflabs.org/idsgen/#{group.title}.png?字體=宋體粗體", size: "100", alt: group.title, class: "img-responsive"), group_path(group))%>
         <p>
           <%= render_group_description(group) %>

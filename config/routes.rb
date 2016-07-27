@@ -5,16 +5,20 @@ Rails.application.routes.draw do
   namespace :account do
     resources :groups
     resources :posts
+    resources :askwords
   end
-  
+
   resources :groups do
     member do
       post :join
       post :quit
     end
-
     resources :posts
   end
+
+  resources :askwords
+
+
   #resources :groups
   #root 'welcome#index'
   # The priority is based upon order of creation: first created -> highest priority.

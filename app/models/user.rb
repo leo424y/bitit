@@ -3,9 +3,13 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   has_many :groups
   has_many :posts
+  has_many :askwords
 
   has_many :group_users
   has_many :participated_groups, through: :group_users, source: :group
+
+  has_many :askword_users
+  has_many :participated_askwords, through: :askword_users, source: :askword
 
   def join!(group)
     participated_groups << group
@@ -18,6 +22,22 @@ class User < ActiveRecord::Base
   def is_member_of?(group)
     participated_groups.include?(group)
   end
+
+
+  def join!(askword)
+    participated_askwords << askword
+  end
+
+  def quit!(askword)
+    participated_askwords.delete(askword)
+  end
+
+  def is_member_of?(askword)
+    participated_askwords.include?(askword)
+  end
+
+
+
 
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable

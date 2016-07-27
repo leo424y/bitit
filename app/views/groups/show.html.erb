@@ -1,7 +1,7 @@
-<div class="col-md-12">
+<div class="col-md-4 col-md-offset-4">
   <div class="group">
     <% if @group.editable_by?(current_user) %>
-      <%= link_to("解字。新", new_group_post_path(@group), class: "btn btn-warning pull-right") %>
+      <%= link_to("解字。新", new_group_post_path(@group), class: "btn btn-success pull-right") %>
       <%= link_to("字造。改", edit_group_path(@group), class: "btn btn-primary pull-right")%>
     <% end %>
     <% if current_user.present? %>
@@ -13,7 +13,7 @@
     <% end %>
   </div>
   <br />
-  <div><%= content_tag(:a , image_tag("https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=#{@group.font}", size: "100", alt: @group.title),:href => "https://tools.wmflabs.org/idsgen/#{@group.title}.svg?字體=#{@group.font}" ,:download =>"" ) %></div>
+  <div align="center"><%= content_tag(:a , image_tag("https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=#{@group.font}", size: "250", alt: @group.title),:href => "https://tools.wmflabs.org/idsgen/#{@group.title}.svg?字體=#{@group.font}" ,:download =>"" ) %></div>
   <h2><%= @group.title %></h2>
   <h2><%= @group.font %></h2>
   <p><%= simple_format(@group.description) %></p>
