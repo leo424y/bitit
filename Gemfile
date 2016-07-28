@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'omniauth-facebook'
+
 gem "kaminari"
 
 gem 'react-rails'
