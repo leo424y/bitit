@@ -73,6 +73,7 @@ zh-TW:
       updated: 您的密碼已被修改，而您現在已重新登入。
       updated_not_active: 您的密碼已被修改。
     registrations:
+      
       destroyed: 再會！您的帳號已被註銷。有緣再會。
       signed_up: 歡迎！您已經成功註冊。
       signed_up_but_inactive: 您已經成功註冊。但因帳號尚未啟用，目前暫時不能登入。

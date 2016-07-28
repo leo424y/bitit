@@ -110,6 +110,64 @@ render_group_description	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/helper
 .clearfix:before, .clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^.clearfix:before, .clearfix:after { content: ""; display: table; }$/;"	function	line:40
 .clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^.clearfix:after { clear: both; }$/;"	function	line:41
 .clearfix	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^.clearfix { zoom: 1; }$/;"	function	line:42
+en	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^en:$/;"	function	line:3
+devise	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^  devise:$/;"	function	line:4
+confirmations	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^    confirmations:$/;"	function	line:5
+confirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      confirmed: "Your email address has been successfully confirmed."$/;"	function	line:6
+send_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      send_instructions: "You will receive an email with instructions for how to confirm your email address in a few minutes."$/;"	function	line:7
+send_paranoid_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      send_paranoid_instructions: "If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes."$/;"	function	line:8
+failure	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^    failure:$/;"	function	line:9
+already_authenticated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      already_authenticated: "You are already signed in."$/;"	function	line:10
+inactive	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      inactive: "Your account is not activated yet."$/;"	function	line:11
+invalid	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      invalid: "Invalid %{authentication_keys} or password."$/;"	function	line:12
+locked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      locked: "Your account is locked."$/;"	function	line:13
+last_attempt	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      last_attempt: "You have one more attempt before your account is locked."$/;"	function	line:14
+not_found_in_database	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      not_found_in_database: "Invalid %{authentication_keys} or password."$/;"	function	line:15
+timeout	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      timeout: "Your session expired. Please sign in again to continue."$/;"	function	line:16
+unauthenticated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      unauthenticated: "You need to sign in or sign up before continuing."$/;"	function	line:17
+unconfirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      unconfirmed: "You have to confirm your email address before continuing."$/;"	function	line:18
+mailer	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^    mailer:$/;"	function	line:19
+confirmation_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      confirmation_instructions:$/;"	function	line:20
+subject	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^        subject: "Confirmation instructions"$/;"	function	line:21
+reset_password_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      reset_password_instructions:$/;"	function	line:22
+subject	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^        subject: "Reset password instructions"$/;"	function	line:23
+unlock_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      unlock_instructions:$/;"	function	line:24
+subject	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^        subject: "Unlock instructions"$/;"	function	line:25
+omniauth_callbacks	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^    omniauth_callbacks:$/;"	function	line:26
+failure	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      failure: "Could not authenticate you from %{kind} because \\"%{reason}\\"."$/;"	function	line:27
+success	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      success: "Successfully authenticated from %{kind} account."$/;"	function	line:28
+passwords	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^    passwords:$/;"	function	line:29
+no_token	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      no_token: "You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided."$/;"	function	line:30
+send_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      send_instructions: "You will receive an email with instructions on how to reset your password in a few minutes."$/;"	function	line:31
+send_paranoid_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      send_paranoid_instructions: "If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes."$/;"	function	line:32
+updated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      updated: "Your password has been changed successfully. You are now signed in."$/;"	function	line:33
+updated_not_active	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      updated_not_active: "Your password has been changed successfully."$/;"	function	line:34
+registrations	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^    registrations:$/;"	function	line:35
+destroyed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      destroyed: "Bye! Your account has been successfully cancelled. We hope to see you again soon."$/;"	function	line:36
+signed_up	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      signed_up: "Welcome! You have signed up successfully."$/;"	function	line:37
+signed_up_but_inactive	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      signed_up_but_inactive: "You have signed up successfully. However, we could not sign you in because your account is not yet activated."$/;"	function	line:38
+signed_up_but_locked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      signed_up_but_locked: "You have signed up successfully. However, we could not sign you in because your account is locked."$/;"	function	line:39
+signed_up_but_unconfirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      signed_up_but_unconfirmed: "A message with a confirmation link has been sent to your email address. Please follow the link to activate your account."$/;"	function	line:40
+update_needs_confirmation	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address."$/;"	function	line:41
+updated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      updated: "Your account has been updated successfully."$/;"	function	line:42
+sessions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^    sessions:$/;"	function	line:43
+signed_in	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      signed_in: "Signed in successfully."$/;"	function	line:44
+signed_out	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      signed_out: "Signed out successfully."$/;"	function	line:45
+already_signed_out	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      already_signed_out: "Signed out successfully."$/;"	function	line:46
+unlocks	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^    unlocks:$/;"	function	line:47
+send_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      send_instructions: "You will receive an email with instructions for how to unlock your account in a few minutes."$/;"	function	line:48
+send_paranoid_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      send_paranoid_instructions: "If your account exists, you will receive an email with instructions for how to unlock it in a few minutes."$/;"	function	line:49
+unlocked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      unlocked: "Your account has been unlocked successfully. Please sign in to continue."$/;"	function	line:50
+errors	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^  errors:$/;"	function	line:51
+messages	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^    messages:$/;"	function	line:52
+already_confirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      already_confirmed: "was already confirmed, please try signing in"$/;"	function	line:53
+confirmation_period_expired	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      confirmation_period_expired: "needs to be confirmed within %{period}, please request a new one"$/;"	function	line:54
+expired	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      expired: "has expired, please request a new one"$/;"	function	line:55
+not_found	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      not_found: "not found"$/;"	function	line:56
+not_locked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      not_locked: "was not locked"$/;"	function	line:57
+not_saved	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^      not_saved:$/;"	function	line:58
+one	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^        one: "1 error prohibited this %{resource} from being saved:"$/;"	function	line:59
+other	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^        other: "%{count} errors prohibited this %{resource} from being saved:"$/;"	function	line:60
 views	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^  views:$/;"	function	line:2
 pagination	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    pagination:$/;"	function	line:3
 first	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      first: "&laquo; 首卷"$/;"	function	line:4
@@ -184,34 +242,43 @@ send_paranoid_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/l
 updated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      updated: 您的密碼已被修改，而您現在已重新登入。$/;"	function	line:73
 updated_not_active	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      updated_not_active: 您的密碼已被修改。$/;"	function	line:74
 registrations	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    registrations:$/;"	function	line:75
-destroyed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      destroyed: 再會！您的帳號已被註銷。有緣再會。$/;"	function	line:76
-signed_up	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_up: 歡迎！您已經成功註冊。$/;"	function	line:77
-signed_up_but_inactive	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_up_but_inactive: 您已經成功註冊。但因帳號尚未啟用，目前暫時不能登入。$/;"	function	line:78
-signed_up_but_locked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_up_but_locked: 您已經成功註冊。可是，因為帳號被鎖住，目前暫時不能登入。$/;"	function	line:79
-signed_up_but_unconfirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_up_but_unconfirmed: 已傳送帳號確認信件至您的 Email 信箱，請收信、並點擊信中確認網址，以便啟用您的帳號。$/;"	function	line:80
-update_needs_confirmation	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      update_needs_confirmation: 您的帳號資料已成功更新，但您的新 Email 信箱需要再次被確認。請收信、並點擊信中確認用的網址，以便完成信箱確認手續。$/;"	function	line:81
-updated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      updated: 您已經成功的更新帳號資訊。$/;"	function	line:82
-sessions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    sessions:$/;"	function	line:83
-signed_in	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_in: 登入成功，歡迎來造。$/;"	function	line:84
-signed_out	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_out: 登出成功，歡迎再造喔。$/;"	function	line:85
-unlocks	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    unlocks:$/;"	function	line:86
-send_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      send_instructions: 您將在幾分鐘後收到一封電子郵件，內有將帳號解除鎖定的步驟說明。$/;"	function	line:87
-send_paranoid_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      send_paranoid_instructions: 如果此帳號真的存在的話，您將在幾分鐘後收到一封電子郵件，內有將帳號解除鎖定的步驟說明。$/;"	function	line:88
-unlocked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      unlocked: 您的帳號已被解鎖，現在您已成功登入。$/;"	function	line:89
-errors	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^  errors:$/;"	function	line:90
-messages	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    messages:$/;"	function	line:91
-already_confirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      already_confirmed: 已被確認過了，請試著登入看看$/;"	function	line:92
-expired	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      expired: 已經過期了，請再要一個新的$/;"	function	line:93
-not_found	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      not_found: 沒有找到$/;"	function	line:94
-not_locked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      not_locked: 被鎖定了$/;"	function	line:95
-not_saved	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      not_saved:$/;"	function	line:96
-one	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^        one: 有一個錯誤導致%{resource}不能被儲存：$/;"	function	line:97
-other	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^        other: 有 %{count} 個錯誤導致%{resource}不能被儲存：$/;"	function	line:98
-simple_form	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^  simple_form:$/;"	function	line:99
-Title	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      Title: '主題'$/;"	function	line:101
-Description	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      Description: '想法'$/;"	function	line:102
-required	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    required:$/;"	function	line:105
-text	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      text: '必需輸入'$/;"	function	line:106
-mark	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      mark: '*'$/;"	function	line:107
-error_notification	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    error_notification:$/;"	function	line:111
-default_message	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      default_message: "Please review the problems below:"$/;"	function	line:112
+destroyed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      destroyed: 再會！您的帳號已被註銷。有緣再會。$/;"	function	line:77
+signed_up	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_up: 歡迎！您已經成功註冊。$/;"	function	line:78
+signed_up_but_inactive	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_up_but_inactive: 您已經成功註冊。但因帳號尚未啟用，目前暫時不能登入。$/;"	function	line:79
+signed_up_but_locked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_up_but_locked: 您已經成功註冊。可是，因為帳號被鎖住，目前暫時不能登入。$/;"	function	line:80
+signed_up_but_unconfirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_up_but_unconfirmed: 已傳送帳號確認信件至您的 Email 信箱，請收信、並點擊信中確認網址，以便啟用您的帳號。$/;"	function	line:81
+update_needs_confirmation	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      update_needs_confirmation: 您的帳號資料已成功更新，但您的新 Email 信箱需要再次被確認。請收信、並點擊信中確認用的網址，以便完成信箱確認手續。$/;"	function	line:82
+updated	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      updated: 您已經成功的更新帳號資訊。$/;"	function	line:83
+sessions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    sessions:$/;"	function	line:84
+signed_in	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_in: 登入成功，歡迎來造。$/;"	function	line:85
+signed_out	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      signed_out: 登出成功，歡迎再造喔。$/;"	function	line:86
+unlocks	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    unlocks:$/;"	function	line:87
+send_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      send_instructions: 您將在幾分鐘後收到一封電子郵件，內有將帳號解除鎖定的步驟說明。$/;"	function	line:88
+send_paranoid_instructions	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      send_paranoid_instructions: 如果此帳號真的存在的話，您將在幾分鐘後收到一封電子郵件，內有將帳號解除鎖定的步驟說明。$/;"	function	line:89
+unlocked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      unlocked: 您的帳號已被解鎖，現在您已成功登入。$/;"	function	line:90
+errors	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^  errors:$/;"	function	line:91
+messages	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    messages:$/;"	function	line:92
+already_confirmed	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      already_confirmed: 已被確認過了，請試著登入看看$/;"	function	line:93
+expired	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      expired: 已經過期了，請再要一個新的$/;"	function	line:94
+not_found	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      not_found: 沒有找到$/;"	function	line:95
+not_locked	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      not_locked: 被鎖定了$/;"	function	line:96
+not_saved	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      not_saved:$/;"	function	line:97
+one	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^        one: 有一個錯誤導致%{resource}不能被儲存：$/;"	function	line:98
+other	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^        other: 有 %{count} 個錯誤導致%{resource}不能被儲存：$/;"	function	line:99
+simple_form	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^  simple_form:$/;"	function	line:100
+Title	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      Title: '主題'$/;"	function	line:102
+Description	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      Description: '想法'$/;"	function	line:103
+required	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    required:$/;"	function	line:106
+text	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      text: '必需輸入'$/;"	function	line:107
+mark	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      mark: '*'$/;"	function	line:108
+error_notification	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    error_notification:$/;"	function	line:112
+default_message	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      default_message: "Please review the problems below:"$/;"	function	line:113
+#masonry-container	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^#masonry-container {$/;"	function	line:5
+.clearfix:before, .clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix:before, .clearfix:after { content: ""; display: table; }$/;"	function	line:17
+.clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix:after { clear: both; }$/;"	function	line:18
+.clearfix	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix { zoom: 1; }$/;"	function	line:19
+.transitions-enabled.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry,$/;"	function	line:21
+.transitions-enabled.masonry .masonry-brick	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry .masonry-brick {$/;"	function	line:22
+.transitions-enabled.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry {$/;"	function	line:30
+.transitions-enabled.masonry  .masonry-brick	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry  .masonry-brick {$/;"	function	line:38
+.transitions-enabled.infinite-scroll.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.infinite-scroll.masonry {$/;"	function	line:48
