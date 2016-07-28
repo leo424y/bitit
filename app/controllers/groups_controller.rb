@@ -42,10 +42,15 @@ class GroupsController < ApplicationController
     end
   end
 
+# fork功能，可發展別人的字
   def createano
-    @group = Group.new(group_params)
+    if current_user
+      @group = current_user.groups.new(group_params)
+    else
+      @group = Group.new(group_params)
+    end
     if @group.save
-      redirect_to groups_path, notice: "造字已召告天下!"
+      redirect_to groups_path, notice: "舊字已新告天下!"
     else
       render :fork
     end
