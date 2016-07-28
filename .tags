@@ -1,16 +1,3 @@
-GroupsController	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^class GroupsController < ApplicationController$/;"	class	line:1
-index	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def index$/;"	method	line:7	class:GroupsController
-new	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def new$/;"	method	line:11	class:GroupsController
-show	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def show$/;"	method	line:15	class:GroupsController
-edit	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def edit$/;"	method	line:19	class:GroupsController
-update	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def update$/;"	method	line:22	class:GroupsController
-destroy	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def destroy$/;"	method	line:30	class:GroupsController
-create	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def create$/;"	method	line:35	class:GroupsController
-join	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def join$/;"	method	line:46	class:GroupsController
-quit	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def quit$/;"	method	line:56	class:GroupsController
-find_group	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group$/;"	method	line:70	class:GroupsController
-find_group_current_user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group_current_user$/;"	method	line:74	class:GroupsController
-group_params	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def group_params$/;"	method	line:78	class:GroupsController
 simple_form	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^  simple_form:$/;"	function	line:2
 labels	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^    labels:$/;"	function	line:3
 title	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simple_form.zh-TW.yml	/^      title: 字碼$/;"	function	line:4
@@ -282,3 +269,18 @@ default_message	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-T
 .transitions-enabled.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry {$/;"	function	line:30
 .transitions-enabled.masonry  .masonry-brick	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry  .masonry-brick {$/;"	function	line:38
 .transitions-enabled.infinite-scroll.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.infinite-scroll.masonry {$/;"	function	line:48
+GroupsController	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^class GroupsController < ApplicationController$/;"	class	line:1
+index	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def index$/;"	method	line:6	class:GroupsController
+new	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def new$/;"	method	line:11	class:GroupsController
+show	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def show$/;"	method	line:15	class:GroupsController
+edit	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def edit$/;"	method	line:19	class:GroupsController
+update	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def update$/;"	method	line:22	class:GroupsController
+destroy	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def destroy$/;"	method	line:30	class:GroupsController
+create	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def create$/;"	method	line:35	class:GroupsController
+createano	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def createano$/;"	method	line:45	class:GroupsController
+fork	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def fork$/;"	method	line:54	class:GroupsController
+join	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def join$/;"	method	line:57	class:GroupsController
+quit	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def quit$/;"	method	line:67	class:GroupsController
+find_group	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group$/;"	method	line:79	class:GroupsController
+find_group_current_user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group_current_user$/;"	method	line:83	class:GroupsController
+group_params	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def group_params$/;"	method	line:87	class:GroupsController
