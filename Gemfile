@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+
+gem "kaminari"
+
 gem 'react-rails'
 gem 'masonry-rails', '~> 0.2.4'
 # gem 'paperclip', '~> 5.0' 圖片上傳

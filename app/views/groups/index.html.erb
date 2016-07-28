@@ -1,11 +1,12 @@
 <div>
-<%= render "common/mainfunction" %>
+
+  <%= render "common/mainfunction" %>
   <br>
   <!-- <img src="https://tools.wmflabs.org/idsgen/⿺辶⿴宀⿱珤⿰隹⿰貝招.png?字體=宋體" type="image/svg+xml" style="height: 150px; width: 150px; " /> -->
-  <div id="masonry-container">
+  <div id="masonry-container" class="transitions-enabled centered clearfix masonry">
     <br>
     <% @groups.each do |group| %>
-      <div class="box col1" align="center" >
+      <div class="box col2" align="center" >
         <%= link_to(image_tag("https://tools.wmflabs.org/idsgen/#{group.title}.png?字體=宋體粗體", size: "100", alt: group.title, class: "img-responsive"), group_path(group))%>
         <p>
           <%= render_group_description(group) %>
@@ -15,5 +16,9 @@
         </p>
       </div>
     <% end %>
+  <center>
+    <%= paginate @groups %>
+
+  </center>
   </div>
 </div>

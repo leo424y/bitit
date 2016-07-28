@@ -1,4 +1,20 @@
 zh-TW:
+  views:
+    pagination:
+      first: "&laquo; 首卷"
+      last: "末卷 &raquo;"
+      previous: "&lsaquo; 上卷"
+      next: "下卷 &rsaquo;"
+      truncate: ".點.點.點."
+  helpers:
+    page_entries_info:
+      one_page:
+        display_entries:
+          zero: "No %{entry_name} found"
+          one: "Displaying <b>1</b> %{entry_name}"
+          other: "Displaying <b>all %{count}</b> %{entry_name}"
+      more_pages:
+        display_entries: "Displaying %{entry_name} <b>%{first}&nbsp;-&nbsp;%{last}</b> of <b>%{total}</b> in total"
   activerecord:
     attributes:
       group:
