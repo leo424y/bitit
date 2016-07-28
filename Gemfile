@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'omniauth-facebook'
 
 gem "kaminari"
+gem 'bootstrap-kaminari-views'
 
 gem 'react-rails'
 gem 'masonry-rails', '~> 0.2.4'
