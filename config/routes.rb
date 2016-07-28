@@ -14,6 +14,7 @@ Rails.application.routes.draw do
       post :quit
       post :fork
       get :fork
+      patch :fork
     end
     resources :posts
   end
