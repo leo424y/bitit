@@ -1,7 +1,7 @@
 .col-md-4.col-md-offset-4
   %h1 字造。再造
   %hr
-  = simple_form_for @group, :url => { :controller => 'groups', :action => 'create' }, :method => :POST do |f|
+  = simple_form_for @group, :url => { :controller => 'groups', :action => 'createano' }, :method => :POST do |f|
     = render "formgroup", :f => f
     = f.submit "送出", class: "btn btn-primary", data: { disable_with: "送出中..." }
   = render "wordref"

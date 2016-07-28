@@ -1,5 +1,5 @@
 class GroupsController < ApplicationController
-  before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy, :fork]
+  before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy]
   before_action :find_group, only: [:show, :edit, :update, :join, :quit, :fork]
   before_action :find_group_current_user, only: [:edit, :update, :destroy]
 
@@ -38,6 +38,15 @@ class GroupsController < ApplicationController
       redirect_to groups_path, notice: "造字已召告天下!"
     else
       render :new
+    end
+  end
+
+  def createano
+    @group = Group.new(group_params)
+    if @group.save
+      redirect_to groups_path, notice: "造字已召告天下!"
+    else
+      render :fork
     end
   end
 

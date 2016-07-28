@@ -2,6 +2,8 @@ Rails.application.routes.draw do
   devise_for :users
   root 'groups#index'
 
+  post 'fork', :to => 'groups#createano'
+
   namespace :account do
     resources :groups
     resources :posts
