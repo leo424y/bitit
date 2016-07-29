@@ -1,24 +1,25 @@
 <div class="col-md-4 col-md-offset-4">
-  <div class="group">
+  <div align="center"><%= content_tag(:a , image_tag("https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=#{@group.font}", size: "250", alt: @group.title),:href => "https://tools.wmflabs.org/idsgen/#{@group.title}.svg?字體=#{@group.font}" ,:download =>"" ) %></div>
+  <br />
+  <div class="group" align="center">
     <% if @group.editable_by?(current_user) %>
-      <%= link_to("解字。新", new_group_post_path(@group), class: "btn btn-success pull-right") %>
-      <%= link_to("字造。改", edit_group_path(@group), class: "btn btn-primary pull-right")%>
+      <!-- <%= link_to("解字。新", new_group_post_path(@group), class: "btn btn-success") %> -->
+      <%= link_to("字造。改", edit_group_path(@group), class: "btn btn-warning")%>
     <% end %>
-    <%= link_to("字造。再創", fork_group_path(@group), class: "btn btn-primary pull-right")%>
-    <% if current_user.present? %>
+    <%= link_to("字造。再創", fork_group_path(@group), class: "btn btn-info")%>
+    <!-- <% if current_user.present? %>
       <% if current_user.is_member_of?(@group) %>
         <%= link_to("不採", quit_group_path(@group), method: :post, class: "btn btn-danger") %>
       <% else %>
         <%= link_to("採", join_group_path(@group), method: :post, class: "btn btn-info") %>
       <% end %>
-    <% end %>
+    <% end %> -->
   </div>
   <br />
-  <div align="center"><%= content_tag(:a , image_tag("https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=#{@group.font}", size: "250", alt: @group.title),:href => "https://tools.wmflabs.org/idsgen/#{@group.title}.svg?字體=#{@group.font}" ,:download =>"" ) %></div>
-  <br />
-  <h4>文字組合碼：<%= @group.title %></h2>
-  <h4>字型：<%= @group.font %></h2>
-  <h4>創作者：<%= @group.owner ? @group.owner.name : "路人甲" %></h2>
+
+  <h4>【文字組合碼】<%= @group.title %></h2>
+  <h4>【字型】<%= @group.font %></h2>
+  <h4>【創作者】<%= @group.owner ? @group.owner.name : "路人甲" %></h2>
   <p><%= simple_format(@group.description) %></p>
   <table class="table table-responsive">
    <thead>

@@ -1,8 +1,8 @@
 .col-md-4.col-md-offset-4
   .askword
-    -if @askword.editable_by?(current_user)
-      = link_to("求字。改", edit_askword_path(@askword), class: "btn btn-primary pull-right")
-      = link_to("求字。滅", askword_path(@askword), class: "btn btn-primary btn-danger pull-right", method: :delete, data: { confirm: "求字刪去?" } )
+    -# -if @askword.editable_by?(current_user)
+    -#   = link_to("求字。改", edit_askword_path(@askword), class: "btn btn-primary pull-right")
+    -#   = link_to("求字。滅", askword_path(@askword), class: "btn btn-primary btn-danger pull-right", method: :delete, data: { confirm: "求字刪去?" } )
   %br
   %h2= @askword.title
   %p= simple_format(@askword.description)

@@ -9,12 +9,14 @@
           <li> <%= link_to("註冊", new_user_registration_path) %> </li>
           <li> <%= link_to("登入", new_user_session_path) %> </li>
         <% else %>
+          <li><%= link_to("待造區", askwords_path) %></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
               字造吧!「 <%= current_user.name %> 」
               <b class="caret"></b>
             </a>
             <ul class="dropdown-menu">
+              <li><%= link_to("求造字", new_askword_path) %></li>
               <li> <%= link_to("我的造字", account_groups_path) %></li>
               <li> <%= link_to("我的解字", account_posts_path) %></li>
               <li> <%= link_to("改頭換面", edit_user_registration_path) %></li>

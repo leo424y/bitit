@@ -5,7 +5,7 @@ class GroupsController < ApplicationController
 
   def index
     @groups = Group.includes(:posts).recent
-    @groups = @groups.page(params[:page]).per(7)
+    @groups = @groups.page(params[:page]).per(12)
   end
 
   def new

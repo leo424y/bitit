@@ -12,6 +12,7 @@
 //= require jquery
 //= require jquery_ujs
 //= require masonry/jquery.masonry
+//= require masonry/jquery.infinitescroll.min
 //= require turbolinks
 //= require bootstrap/dropdown
 //= require bootstrap/alert
