@@ -15,8 +15,10 @@
   </div>
   <br />
   <div align="center"><%= content_tag(:a , image_tag("https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=#{@group.font}", size: "250", alt: @group.title),:href => "https://tools.wmflabs.org/idsgen/#{@group.title}.svg?字體=#{@group.font}" ,:download =>"" ) %></div>
-  <h2><%= @group.title %></h2>
-  <h2><%= @group.font %></h2>
+  <br />
+  <h4>文字組合碼：<%= @group.title %></h2>
+  <h4>字型：<%= @group.font %></h2>
+  <h4>創作者：<%= @group.owner ? @group.owner.name : "路人甲" %></h2>
   <p><%= simple_format(@group.description) %></p>
   <table class="table table-responsive">
    <thead>

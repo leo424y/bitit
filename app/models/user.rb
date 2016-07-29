@@ -27,9 +27,6 @@ class User < ActiveRecord::Base
     participated_askwords.include?(askword)
   end
 
-
-
-
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 end

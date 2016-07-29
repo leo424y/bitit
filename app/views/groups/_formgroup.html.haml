@@ -1,4 +1,4 @@
 .form-group
   = f.input :title, autofocus: true, hint: '張=⿰⼸長, 國=⿴囗或, 舅=⿱⾅男', placeholder: '⿰⼸長'
-  = f.input :description, hint: '說說看這字啥意思唄'
+  = f.input :description, placeholder: '說說看這字啥意思唄'
   = f.collection_radio_buttons :font, [['宋體', '【宋體】'] ,['楷體', '【楷體】'] ,['宋體粗體', '【宋體粗體】'] ,['楷體粗體', '【楷體粗體】']], :first, :last

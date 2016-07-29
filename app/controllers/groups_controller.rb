@@ -46,6 +46,7 @@ class GroupsController < ApplicationController
   def createano
     if current_user
       @group = current_user.groups.new(group_params)
+      current_user.join!(@group)
     else
       @group = Group.new(group_params)
     end
