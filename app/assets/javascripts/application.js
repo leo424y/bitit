@@ -9,7 +9,6 @@
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
-//
 //= require jquery
 //= require jquery_ujs
 //= require masonry/jquery.masonry
@@ -17,9 +16,15 @@
 //= require bootstrap/dropdown
 //= require bootstrap/alert
 //= require bootstrap-sprockets
+//= require_self
 //= require react
 //= require react_ujs
+//= require social-share-button
 //= require components
 //= require_tree .
-//= require keyboard/jquery.keyboard.min
-//= require social-share-button
+
+window.$ = window.jQuery = global.$ = require('jquery');
+var React = window.React = global.React = require('react');
+var ReactDOM = window.ReactDOM = global.ReactDOM = require('react-dom');
+
+require('./components');

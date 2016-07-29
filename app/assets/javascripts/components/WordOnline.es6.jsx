@@ -1,8 +1,9 @@
 import React from 'react';
-import 組字圖 from './組字圖.js';
+import ReactDOM from 'react-dom';
+import WordPicture from './WordPicture';
 import 鍵盤 from './鍵盤';
 
-export default class 線上組字 extends React.Component {
+class WordOnline extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -24,7 +25,7 @@ export default class 線上組字 extends React.Component {
           <table><tbody>
           <tr>
             <td>
-              <組字圖 組字式={組字式}/>
+              <WordPicture 組字式={組字式}/>
             </td>
             <td>
               <textarea id='組字式輸入' ref="組字式輸入"
@@ -149,3 +150,4 @@ export default class 線上組字 extends React.Component {
     }
   }
 }
+export default WordOnline

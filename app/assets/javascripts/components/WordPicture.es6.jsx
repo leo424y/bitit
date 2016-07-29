@@ -1,8 +1,10 @@
 import React from 'react';
+import ReactDOM from 'react-dom';
+
 let  oo1 = '■';
 let beh8 = '□';
 
-export default class 組字圖 extends React.Component {
+class WordPicture extends React.Component {
 
   constructor(props) {
     super(props);
@@ -78,17 +80,7 @@ export default class 組字圖 extends React.Component {
     switch (ji7) {
     case '⿰':
     case '⿱':
-    case '⿲':
-    case '⿳':
     case '⿴':
-    case '⿵':
-    case '⿶':
-    case '⿷':
-    case '⿸':
-    case '⿹':
-    case '⿺':
-    case '⿻':
-    case '⿿':
       return true;
   }
     return false;
@@ -107,3 +99,5 @@ export default class 組字圖 extends React.Component {
      );
   }
 }
+
+export default WordPicture
