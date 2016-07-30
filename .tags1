@@ -4,12 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-#masonry-container	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^#masonry-container {$/;"	function	line:5
-.clearfix:before, .clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix:before, .clearfix:after { content: ""; display: table; }$/;"	function	line:17
-.clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix:after { clear: both; }$/;"	function	line:18
-.clearfix	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix { zoom: 1; }$/;"	function	line:19
-.transitions-enabled.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry,$/;"	function	line:21
-.transitions-enabled.masonry .masonry-brick	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry .masonry-brick {$/;"	function	line:22
-.transitions-enabled.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry {$/;"	function	line:30
-.transitions-enabled.masonry  .masonry-brick	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry  .masonry-brick {$/;"	function	line:38
-.transitions-enabled.infinite-scroll.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.infinite-scroll.masonry {$/;"	function	line:48

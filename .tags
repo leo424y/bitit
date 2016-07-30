@@ -260,8 +260,6 @@ text	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^   
 mark	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      mark: '*'$/;"	function	line:108
 error_notification	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^    error_notification:$/;"	function	line:112
 default_message	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/zh-TW.yml	/^      default_message: "Please review the problems below:"$/;"	function	line:113
-React	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var React = window.React = global.React = require('react');$/;"	variable	line:28
-ReactDOM	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var ReactDOM = window.ReactDOM = global.ReactDOM = require('react-dom');$/;"	variable	line:29
 GroupsController	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^class GroupsController < ApplicationController$/;"	class	line:1
 index	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def index$/;"	method	line:6	class:GroupsController
 new	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def new$/;"	method	line:11	class:GroupsController
@@ -286,3 +284,5 @@ group_params	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups
 .transitions-enabled.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry {$/;"	function	line:30
 .transitions-enabled.masonry  .masonry-brick	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry  .masonry-brick {$/;"	function	line:38
 .transitions-enabled.infinite-scroll.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.infinite-scroll.masonry {$/;"	function	line:48
+React	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var React = window.React = global.React = require('react');$/;"	variable	line:27
+ReactDOM	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var ReactDOM = window.ReactDOM = global.ReactDOM = require('react-dom');$/;"	variable	line:28

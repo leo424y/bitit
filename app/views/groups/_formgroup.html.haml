@@ -1,4 +1,4 @@
 .form-group
   = f.input :title, autofocus: true, hint: '使用⿰左右,⿱上下,⿴包圍，將兩個字組合，例如：⿰⼸長=張, ⿴囗或=國, ⿱⾅男=舅', placeholder: '⿰⼸長'
-  = f.input :description, placeholder: '說說看這字啥意思唄'
+  = f.input :description, id: "wordwhy",  placeholder: '說說看這字啥意思唄'
   = f.collection_radio_buttons :font, [['宋體', '【宋體】'] ,['楷體', '【楷體】'] ,['宋體粗體', '【宋體粗體】'] ,['楷體粗體', '【楷體粗體】']], :first, :last
