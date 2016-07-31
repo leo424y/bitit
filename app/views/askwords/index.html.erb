@@ -1,5 +1,4 @@
 <div class="col-md-12">
-  <%= render "common/mainfunction" %>
   <br>
   <!-- <img src="https://tools.wmflabs.org/idsgen/⿺辶⿴宀⿱珤⿰隹⿰貝招.png?字體=宋體" type="image/svg+xml" style="height: 150px; width: 150px; " /> -->
   <div id="masonry-container" class="transitions-enabled fluid">
@@ -7,8 +6,9 @@
     <% @askwords.each do |askword| %>
       <div class="box" align="center">
         <p>
-          <%= link_to(render_askword_title(askword), askword_path(askword)) %>
+          <h2><%= link_to(render_askword_title(askword), askword_path(askword)) %></h2>
           <%= render_askword_description(askword) %>
+          <br/>
           <%= askword.updated_at.to_s(:short)  %>
         </p>
       </div>
