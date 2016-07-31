@@ -21,7 +21,7 @@
   <h4>【字型】<%= @group.font %></h2>
   <h4>【創作者】<%= @group.owner ? @group.owner.name : "路人甲" %></h2>
   <p><%= simple_format(@group.description) %></p>
-  <table class="table table-responsive">
+  <!-- <table class="table table-responsive">
    <thead>
      <tr>
        <th>解字</th>
@@ -43,7 +43,7 @@
        </tr>
      <% end %>
    </tbody>
-  </table>
+  </table> -->
   <%= social_share_button_tag(@group.title, :popup => "true", :url => request.original_url, :image => "https://tools.wmflabs.org/idsgen/#{@group.title}.png?字體=宋體") %>
   <%= render 'disqus' %>
 </div>

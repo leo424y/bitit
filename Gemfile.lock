@@ -242,7 +242,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   simple_form
-  social-share-button (~> 0.2.1)
+  social-share-button
   spring
   sqlite3
   turbolinks
@@ -251,4 +251,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.10.6
+   1.12.5
