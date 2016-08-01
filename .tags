@@ -92,11 +92,6 @@ default_message	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/simp
 GroupsHelper	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/helpers/groups_helper.rb	/^module GroupsHelper$/;"	module	line:1
 render_group_title	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/helpers/groups_helper.rb	/^  def render_group_title(group)$/;"	method	line:2	class:GroupsHelper
 render_group_description	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/helpers/groups_helper.rb	/^  def render_group_description(group)$/;"	method	line:5	class:GroupsHelper
-* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^ * Any CSS and SCSS file within this directory, lib\/assets\/stylesheets, vendor\/assets\/stylesheets,$/;"	function	line:5
-#masonry-container	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^#masonry-container {$/;"	function	line:29
-.clearfix:before, .clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^.clearfix:before, .clearfix:after { content: ""; display: table; }$/;"	function	line:40
-.clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^.clearfix:after { clear: both; }$/;"	function	line:41
-.clearfix	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^.clearfix { zoom: 1; }$/;"	function	line:42
 en	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^en:$/;"	function	line:3
 devise	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^  devise:$/;"	function	line:4
 confirmations	/Users/y/Dropbox/Public/_ruby/ror74/rails101/config/locales/devise.en.yml	/^    confirmations:$/;"	function	line:5
@@ -286,3 +281,6 @@ group_params	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups
 .transitions-enabled.infinite-scroll.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.infinite-scroll.masonry {$/;"	function	line:48
 React	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var React = window.React = global.React = require('react');$/;"	variable	line:27
 ReactDOM	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var ReactDOM = window.ReactDOM = global.ReactDOM = require('react-dom');$/;"	variable	line:28
+* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^ * Any CSS and SCSS file within this directory, lib\/assets\/stylesheets, vendor\/assets\/stylesheets,$/;"	function	line:5
+// .cool	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^\/\/ .cool {$/;"	function	line:29
+//   path	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^\/\/   path{$/;"	function	line:31
