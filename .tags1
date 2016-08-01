@@ -4,6 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-* Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^ * Any CSS and SCSS file within this directory, lib\/assets\/stylesheets, vendor\/assets\/stylesheets,$/;"	function	line:5
-// .cool	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^\/\/ .cool {$/;"	function	line:29
-//   path	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^\/\/   path{$/;"	function	line:31
