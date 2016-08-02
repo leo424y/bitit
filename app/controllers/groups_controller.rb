@@ -8,6 +8,11 @@ class GroupsController < ApplicationController
     @groups = @groups.page(params[:page]).per(7)
   end
 
+  def indexuser
+    @groups = Group.includes(:owner).recent
+    @groups = @groups.page(params[:page]).per(7)
+  end
+
   def new
     @group = Group.new
   end

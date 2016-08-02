@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root 'groups#index'
 
   post 'fork', :to => 'groups#createano'
+  post 'indexuser', :to => 'groups#indexuser'
 
   namespace :account do
     resources :groups
@@ -12,11 +13,15 @@ Rails.application.routes.draw do
 
   resources :groups do
     member do
+
       post :join
       post :quit
       post :fork
       get :fork
       patch :fork
+      post :indexuser
+      get :indexuser
+      patch :indexuser
     end
     resources :posts
   end
