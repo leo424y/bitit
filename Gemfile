@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-
 gem 'inline_svg'
 gem 'omniauth-facebook'
 gem "kaminari"
