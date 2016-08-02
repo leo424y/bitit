@@ -270,8 +270,6 @@ quit	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_control
 find_group	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group$/;"	method	line:85	class:GroupsController
 find_group_current_user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group_current_user$/;"	method	line:89	class:GroupsController
 group_params	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def group_params$/;"	method	line:93	class:GroupsController
-React	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var React = window.React = global.React = require('react');$/;"	variable	line:27
-ReactDOM	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var ReactDOM = window.ReactDOM = global.ReactDOM = require('react-dom');$/;"	variable	line:28
 * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^ * Any CSS and SCSS file within this directory, lib\/assets\/stylesheets, vendor\/assets\/stylesheets,$/;"	function	line:5
 .st-index	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.st-index {$/;"	function	line:6
 path	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^  path{$/;"	function	line:8
@@ -284,3 +282,5 @@ path	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.
 .transitions-enabled.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry {$/;"	function	line:40
 .transitions-enabled.masonry  .masonry-brick	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry  .masonry-brick {$/;"	function	line:48
 .transitions-enabled.infinite-scroll.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.infinite-scroll.masonry {$/;"	function	line:58
+React	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var React = window.React = global.React = require('react');$/;"	variable	line:27
+ReactDOM	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var ReactDOM = window.ReactDOM = global.ReactDOM = require('react-dom');$/;"	variable	line:28
