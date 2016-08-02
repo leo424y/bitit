@@ -270,17 +270,17 @@ quit	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_control
 find_group	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group$/;"	method	line:85	class:GroupsController
 find_group_current_user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group_current_user$/;"	method	line:89	class:GroupsController
 group_params	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def group_params$/;"	method	line:93	class:GroupsController
-#masonry-container	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^#masonry-container {$/;"	function	line:5
-.clearfix:before, .clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix:before, .clearfix:after { content: ""; display: table; }$/;"	function	line:17
-.clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix:after { clear: both; }$/;"	function	line:18
-.clearfix	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix { zoom: 1; }$/;"	function	line:19
-.transitions-enabled.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry,$/;"	function	line:21
-.transitions-enabled.masonry .masonry-brick	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry .masonry-brick {$/;"	function	line:22
-.transitions-enabled.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry {$/;"	function	line:30
-.transitions-enabled.masonry  .masonry-brick	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry  .masonry-brick {$/;"	function	line:38
-.transitions-enabled.infinite-scroll.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.infinite-scroll.masonry {$/;"	function	line:48
 React	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var React = window.React = global.React = require('react');$/;"	variable	line:27
 ReactDOM	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/javascripts/application.js	/^var ReactDOM = window.ReactDOM = global.ReactDOM = require('react-dom');$/;"	variable	line:28
 * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^ * Any CSS and SCSS file within this directory, lib\/assets\/stylesheets, vendor\/assets\/stylesheets,$/;"	function	line:5
-// .cool	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^\/\/ .cool {$/;"	function	line:29
-//   path	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/application.css.scss	/^\/\/   path{$/;"	function	line:31
+.st-index	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.st-index {$/;"	function	line:6
+path	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^  path{$/;"	function	line:8
+#masonry-container	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^#masonry-container {$/;"	function	line:15
+.clearfix:before, .clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix:before, .clearfix:after { content: ""; display: table; }$/;"	function	line:27
+.clearfix:after	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix:after { clear: both; }$/;"	function	line:28
+.clearfix	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.clearfix { zoom: 1; }$/;"	function	line:29
+.transitions-enabled.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry,$/;"	function	line:31
+.transitions-enabled.masonry .masonry-brick	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry .masonry-brick {$/;"	function	line:32
+.transitions-enabled.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry {$/;"	function	line:40
+.transitions-enabled.masonry  .masonry-brick	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.masonry  .masonry-brick {$/;"	function	line:48
+.transitions-enabled.infinite-scroll.masonry	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/assets/stylesheets/groups.scss	/^.transitions-enabled.infinite-scroll.masonry {$/;"	function	line:58

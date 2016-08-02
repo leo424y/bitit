@@ -3,6 +3,15 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 
+.st-index {
+  background-color: red;
+  path{
+    fill: green;
+    fill-opacity: 1;
+  }
+}
+
+
 #masonry-container {
   background: #FFF;
   padding: 5px;
