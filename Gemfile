@@ -1,12 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'inline_svg'
-
 gem 'omniauth-facebook'
-
 gem "kaminari"
 gem 'bootstrap-kaminari-views'
-
 gem 'react-rails'
 gem 'masonry-rails', '~> 0.2.4'
 # gem 'paperclip', '~> 5.0' 圖片上傳
