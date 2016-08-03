@@ -4,7 +4,7 @@ class GroupsController < ApplicationController
   before_action :find_group_current_user, only: [:edit, :update, :destroy]
 
   def index
-    @groups = Group.includes(:posts).recent
+    @groups = Group.all.recent
     @groups = @groups.page(params[:page]).per(7)
   end
 

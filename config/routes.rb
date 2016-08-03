@@ -5,6 +5,7 @@ Rails.application.routes.draw do
   post 'fork', :to => 'groups#createano'
   post 'indexuser', :to => 'groups#indexuser'
 
+
   namespace :account do
     resources :groups
     resources :posts
@@ -13,7 +14,6 @@ Rails.application.routes.draw do
 
   resources :groups do
     member do
-
       post :join
       post :quit
       post :fork
