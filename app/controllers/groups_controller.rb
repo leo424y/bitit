@@ -9,7 +9,7 @@ class GroupsController < ApplicationController
   end
 
   def indexuser
-    @groups = Group.includes(:owner).recent
+    @groups = Group.where( :owner => params[:group_users]).recent
     @groups = @groups.page(params[:page]).per(7)
   end
 
