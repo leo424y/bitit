@@ -18,7 +18,7 @@
   <br />
   <h4>【文字組合碼】<%= @group.title %></h4>
   <h4>【字型】<%= @group.font %></h4>
-  <h4>【創作者】<%= link_to( @group.owner ? @group.owner.name : "路人甲", indexuser_group_path(@group, :group_users => @group.owner) ) %></h4>
+  <h4>【創作者】<%= link_to( @group.owner ? @group.owner.name : "路人甲", indexuser_group_path(@group, :group_owner => @group.owner) ) %></h4>
   <p><%= simple_format(@group.description) %></p>
   <!-- <table class="table table-responsive">
    <thead>

@@ -1,3 +1,12 @@
+# == schema information
+# table name groups
+#  id             :integer    not null, primary key
+#  titile         :string     default(""), not null
+#  description    :text       default(""), not null
+#  font           :string     default(""), not null
+#  created_at     :datetime   not null
+#  updated_at     :datetime   not null
+
 class GroupsController < ApplicationController
   before_action :authenticate_user!, only: [:new, :edit, :create, :update, :destroy]
   before_action :find_group, only: [:show, :edit, :update, :join, :quit, :fork]
@@ -9,7 +18,7 @@ class GroupsController < ApplicationController
   end
 
   def indexuser
-    @groups = Group.where( :owner => params[:group_users]).recent
+    @groups = Group.where(:owner => params[:group_owner]).recent
     @groups = @groups.page(params[:page]).per(7)
   end
 
