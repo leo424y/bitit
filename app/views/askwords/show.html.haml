@@ -7,6 +7,6 @@
   %h2= @askword.title
   %p= simple_format(@askword.description)
   %br
-  = social_share_button_tag(@askword.title, :popup => "true", :url => request.original_url, :image => "https://tools.wmflabs.org/idsgen/#{@askword.title}.png?字體=宋體")
+  -# = social_share_button_tag(@askword.title, :popup => "true", :url => request.original_url, :image => "https://tools.wmflabs.org/idsgen/#{@askword.title}.png?字體=宋體")
   = render 'disqus'
 </div>
