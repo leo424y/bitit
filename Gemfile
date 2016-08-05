@@ -1,4 +1,7 @@
 source 'https://rubygems.org'
+
+gem "rails-erd"
+
 gem 'inline_svg'
 gem 'omniauth-facebook'
 gem "kaminari"
