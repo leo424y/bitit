@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'meta-tags'
+
 gem "rails-erd"
 
 gem 'inline_svg'
