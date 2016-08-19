@@ -4,3 +4,19 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+GroupsController	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^class GroupsController < ApplicationController$/;"	class	line:10
+index	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def index$/;"	method	line:15	class:GroupsController
+indexuser	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def indexuser$/;"	method	line:20	class:GroupsController
+new	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def new$/;"	method	line:25	class:GroupsController
+show	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def show$/;"	method	line:29	class:GroupsController
+edit	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def edit$/;"	method	line:33	class:GroupsController
+update	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def update$/;"	method	line:36	class:GroupsController
+destroy	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def destroy$/;"	method	line:44	class:GroupsController
+create	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def create$/;"	method	line:49	class:GroupsController
+createano	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def createano$/;"	method	line:61	class:GroupsController
+fork	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def fork$/;"	method	line:75	class:GroupsController
+join	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def join$/;"	method	line:78	class:GroupsController
+quit	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def quit$/;"	method	line:88	class:GroupsController
+find_group	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group$/;"	method	line:100	class:GroupsController
+find_group_current_user	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def find_group_current_user$/;"	method	line:104	class:GroupsController
+group_params	/Users/y/Dropbox/Public/_ruby/ror74/rails101/app/controllers/groups_controller.rb	/^  def group_params$/;"	method	line:108	class:GroupsController

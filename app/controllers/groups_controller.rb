@@ -50,7 +50,7 @@ class GroupsController < ApplicationController
     @group = current_user.groups.new(group_params)
     if @group.save
       current_user.join!(@group)
-      UserMailer.notify_comment(current_user, @group.title).deliver_later!
+      UserMailer.notify_comment(current_user, @group.title).deliver_now!
       redirect_to groups_path, notice: "造字已召告天下!"
     else
       render :new
