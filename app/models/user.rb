@@ -1,4 +1,4 @@
-class User < ActiveRecord::Base
+gclass User < ActiveRecord::Base
   # Include default devise modules. Others available are:
   # :confirmable, :lockable, :timeoutable and :omniauthable
   has_many :groups
