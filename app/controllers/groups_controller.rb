@@ -98,14 +98,14 @@ class GroupsController < ApplicationController
   private
 
   def find_group
-    @group = Group.find(params[:id])
+    @group = Group.friendly.find(params[:id])
   end
 
   def find_group_current_user
-    @group = current_user.groups.find(params[:id])
+    @group = current_user.groups.friendly.find(params[:id])
   end
 
   def group_params
-    params.require(:group).permit(:title, :description, :font)
+    params.require(:group).permit(:title, :description, :font, :slug)
   end
 end

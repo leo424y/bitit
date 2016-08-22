@@ -1,4 +1,7 @@
 class Group < ActiveRecord::Base
+  extend FriendlyId
+  friendly_id :title, use: :slugged
+
   scope :recent, -> { order("updated_at DESC") }
   scope :posts_count_D, -> { order("posts_count DESC") }
 
