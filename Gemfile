@@ -66,6 +66,10 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
+
+  #測試用gem信不會寄出，config.action_mailer.delivery_method = :letter_opener
+  gem 'letter_opener'
+  
 end
 
 group :production do
