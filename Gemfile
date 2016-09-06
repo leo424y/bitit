@@ -53,6 +53,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 group :development do
   gem 'better_errors'
+  gem 'bullet'
 end
 
 group :development, :test do
