@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'paranoia'
+gem 'activeadmin', github: 'activeadmin'
 gem 'friendly_id', '~> 5.1.0'
 
 gem 'meta-tags'
@@ -18,6 +20,12 @@ gem 'social-share-button'
 gem "virtual_keyboard"
 gem "rails-i18n"
 gem "devise"
+gem "pundit"
+gem 'carrierwave'
+gem 'country_select'
+gem 'mini_magick'
+gem "sunspot_rails"
+
 gem 'bootstrap-sass'
 gem 'simple_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -69,7 +77,8 @@ group :development, :test do
 
   #測試用gem信不會寄出，config.action_mailer.delivery_method = :letter_opener
   gem 'letter_opener'
-  
+
+  gem "sunspot_solr"
 end
 
 group :production do
