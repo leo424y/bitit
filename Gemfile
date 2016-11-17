@@ -6,32 +6,32 @@ gem 'friendly_id', '~> 5.1.0'
 
 gem 'meta-tags'
 
-gem "rails-erd"
+gem 'rails-erd'
 
 gem 'inline_svg'
 gem 'omniauth-facebook'
-gem "kaminari"
+gem 'kaminari'
 gem 'bootstrap-kaminari-views'
 gem 'react-rails'
 gem 'masonry-rails', '~> 0.2.4'
 # gem 'paperclip', '~> 5.0' 圖片上傳
 gem 'haml', '~> 4.0', '>= 4.0.7'
 gem 'social-share-button'
-gem "virtual_keyboard"
-gem "rails-i18n"
-gem "devise"
-gem "pundit"
+gem 'virtual_keyboard'
+gem 'rails-i18n'
+gem 'devise'
+gem 'pundit'
 gem 'carrierwave'
 gem 'country_select'
 gem 'mini_magick'
-gem "sunspot_rails"
+gem 'sunspot_rails'
 
 gem 'bootstrap-sass'
 gem 'simple_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
-#gem 'sqlite3'
+# gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -75,13 +75,13 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
-  #測試用gem信不會寄出，config.action_mailer.delivery_method = :letter_opener
+  # 測試用gem信不會寄出，config.action_mailer.delivery_method = :letter_opener
   gem 'letter_opener'
 
-  gem "sunspot_solr"
+  gem 'sunspot_solr'
 end
 
 group :production do
-  gem "pg"
-  gem "rails_12factor"
+  gem 'pg'
+  gem 'rails_12factor'
 end
