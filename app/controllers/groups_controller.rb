@@ -18,7 +18,7 @@ class GroupsController < ApplicationController
   end
 
   def indexuser
-    @groups = Group.where(:owner => params[:group_owner]).recent
+    @groups = Group.where(owner: params[:group_owner]).recent
     @groups = @groups.page(params[:page]).per(7)
   end
 
@@ -35,7 +35,7 @@ class GroupsController < ApplicationController
 
   def update
     if @group.update(group_params)
-      redirect_to groups_path, notice: "造字更新成功"
+      redirect_to groups_path, notice: '造字更新成功'
     else
       render :edit
     end
@@ -43,21 +43,21 @@ class GroupsController < ApplicationController
 
   def destroy
     @group.destroy
-    redirect_to groups_path, alert: "造字已煙消雲散"
+    redirect_to groups_path, alert: '造字已煙消雲散'
   end
 
   def create
     @group = current_user.groups.new(group_params)
     if @group.save
       current_user.join!(@group)
-      UserMailer.notify_comment(current_user, @group.title).deliver_now!
-      redirect_to groups_path, notice: "造字已召告天下!"
+      # UserMailer.notify_comment(current_user, @group.title).deliver_now!
+      redirect_to groups_path, notice: '造字已召告天下!'
     else
       render :new
     end
   end
 
-# fork功能，可發展別人的字
+  # fork功能，可發展別人的字
   def createano
     if current_user
       @group = current_user.groups.new(group_params)
@@ -66,7 +66,7 @@ class GroupsController < ApplicationController
       @group = Group.new(group_params)
     end
     if @group.save
-      redirect_to groups_path, notice: "舊字已新告天下!"
+      redirect_to groups_path, notice: '舊字已新告天下!'
     else
       render :fork
     end
@@ -78,9 +78,9 @@ class GroupsController < ApplicationController
   def join
     if !current_user.is_member_of?(@group)
       current_user.join!(@group)
-      flash[:notice] = "你已開始信此字"
+      flash[:notice] = '你已開始信此字'
     else
-      flash[:warning] = "你早已是此字信眾"
+      flash[:warning] = '你早已是此字信眾'
     end
     redirect_to group_path(@group)
   end
@@ -88,9 +88,9 @@ class GroupsController < ApplicationController
   def quit
     if current_user.is_member_of?(@group)
       current_user.quit!(@group)
-      flash[:alert] = "你已不信此字"
+      flash[:alert] = '你已不信此字'
     else
-      flash[:warning] = "你不是本字信眾"
+      flash[:warning] = '你不是本字信眾'
     end
     redirect_to group_path(@group)
   end
