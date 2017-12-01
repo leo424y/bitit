@@ -17,7 +17,7 @@ Bundler.require(*Rails.groups)
 module Rails101
   class Application < Rails::Application
     config.action_dispatch.default_headers = {
-    'Access-Control-Allow-Origin' => 'https://codesandbox.io',
+    'Access-Control-Allow-Origin' => 'https://91lwl1q2zp.codesandbox.io/',
     'Access-Control-Request-Method' => %w{GET POST OPTIONS}.join(",")}
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
