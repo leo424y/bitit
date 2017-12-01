@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rack-cors', :require => 'rack/cors'
+
 gem 'paranoia'
 gem 'activeadmin'
 gem 'friendly_id', '~> 5.1.0'
