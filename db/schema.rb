@@ -56,7 +56,6 @@ ActiveRecord::Schema.define(version: 20160822060321) do
     t.integer  "user_id"
     t.integer  "posts_count", default: 0
     t.string   "font"
-    t.string   "address"
     t.string   "slug"
   end
 

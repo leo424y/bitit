@@ -12,6 +12,11 @@ class GroupsController < ApplicationController
   before_action :find_group, only: [:show, :edit, :update, :join, :quit, :fork]
   before_action :find_group_current_user, only: [:edit, :update, :destroy]
 
+  def api
+    groups = Group.all
+    render json: groups
+  end
+
   def index
     @groups = Group.all.recent
     @groups = @groups.page(params[:page]).per(7)

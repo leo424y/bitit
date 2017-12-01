@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
   root 'groups#index'
 
+  get 'mywords', to: 'groups#api'
   post 'fork', :to => 'groups#createano'
   post 'indexuser', :to => 'groups#indexuser'
 
